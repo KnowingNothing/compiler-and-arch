@@ -53,7 +53,7 @@ A list of awesome compilers for different architectures and emerging domains.
 ## Compilers for PIM
 
 
-## Compilers for Brain-inspired hardware
+## Compilers for Brain-inspired Hardware
 
 
 ## Compilers for SIMT GPU
