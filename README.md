@@ -18,6 +18,12 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 - [Compilers for Mobile and Edge](#compilers-for-mobile-and-edge)
 - [Compilers for RISC-V](#compilers-for-risc-v)
 - [Compilers for Configurable Hardware](#compilers-for-configurable-hardware)
+- [Design Space Construction and Exploration](#design-space-construction-and-exploration)
+- [Dynamic Shape and Control Flow](#dynamic-shape-and-control-flow)
+- [Sparse Applications, Compilers, and Architectures
+](#sparse-applications-compilers-and-architectures)
+- [Tree and Graph Applications, Compilers, and Architectures](#tree-and-graph-applications-compilers-and-architectures)
+- [NAS Compilers and Architectures](#nas-compilers-and-architectures)
 - [Survey and Books](#survey-and-books)
 - [Talks, Tutorials, and Videos](#talks-tutorials-and-videos)
 
@@ -39,6 +45,7 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 ## Compiler Toolchain
 
 - Open-source
+    - [Halide: a language and compiler for optimizing parallelism, locality, and recomputation in image processing pipelines](https://people.csail.mit.edu/jrk/halide-pldi13.pdf) **PLDI 2013**. [Github Page](https://github.com/halide/Halide). [Document Page](https://halide-lang.org/docs/). Jonathan Ragan-Kelley, Connelly Barnes, Andrew Adams, Sylvain Paris, Frédo Durand, Saman P. Amarasinghe. _MIT CSAIL_.
 
 - Close-source (binary available)
 
@@ -53,6 +60,9 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 - Polyhedral Optimization
     - [AKG: automatic kernel generation for neural processing units using polyhedral transformations](https://dl.acm.org/doi/abs/10.1145/3453483.3454106) **PLDI 2021**. [code](https://github.com/mindspore-ai/akg). Jie Zhao, Bojie Li, Wang Nie, Zhen Geng, Renwei Zhang, Xiong Gao, Bin Cheng, Chen Wu, Yun Cheng, Zheng Li, Peng Di, Kun Zhang, Xuefeng Jin. _State Key Laboratory of Mathematical Engineering and Advanced Computing, China_.
     - [Optimizing the Memory Hierarchy by Compositing Automatic Transformations on Computations and Data](https://www.microarch.org/micro53/papers/738300a427.pdf) **MICRO 2020**. [code](https://github.com/mindspore-ai/akg). Jie Zhao, Peng Di. _State Key Laboratory of Mathematical Engineering and Advanced Computing, China_.
+
+- Cost Model Design
+    - [A LEARNED PERFORMANCE MODEL FOR TENSOR PROCESSING UNITS](https://arxiv.org/abs/2008.01040) **MLSys 2021**. Samuel J. Kaufman, Phitchaya Mangpo Phothilimthana, Yanqi Zhou, Charith Mendis, Sudip Roy, Amit Sabne, Mike Burrows. _Google_.
 
 ## Compilers for PIM
 
@@ -81,9 +91,6 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 - Program Synthesis
     - [EQUALITY SATURATION FOR TENSOR GRAPH SUPEROPTIMIZATION](https://arxiv.org/abs/2101.01332) **MLSys 2021**. Yichen Yang, Phitchaya Mangpo Phothilimthana, Yisu Remy Wang, Max Willsey, Sudip Roy, Jacques Pienaar. _MIT EECS & CSAIL_.
 
-- Sparse or Irregular GPU Kernel Optimization
-    - [GraphIt to CUDA Compiler in 2021 LOC: A Case for High-Performance DSL Implementation via Staging with BuilDSL](https://intimeand.space/docs/CGO2022-BuilDSL.pdf) **CGO 2022**. Ajay Brahmakshatriya, Saman P. Amarasinghe. _CSAIL, MIT_.
-
 - Compilers for HPC Workloads on GPU
 
 - Holistic Graph Optimization
@@ -91,6 +98,7 @@ A list of awesome compilers and optimization techniques (applicable to compilers
     - [DNNFusion: Accelerating Deep Neural Networks Execution with Advanced Operator Fusion](https://dl.acm.org/doi/10.1145/3453483.3454083) **PLDI 2021**. Wei Niu, Jiexiong Guan, Yanzhi Wang, Gagan Agrawal, Bin Ren. _College of William & Mary_.
     - [DeepCuts: A Deep Learning Optimization Framework for Versatile GPU Workloads](https://dl.acm.org/doi/10.1145/3453483.3454038) **PLDI 2021** Wookeun Jung, Thanh Tuan Dao, Jaejin Lee. _Seoul National University_.
     - [Pet: Optimizing Tensor Programs with Partially Equivalent Transformations and Automated Corrections](https://www.usenix.org/conference/osdi21/presentation/wang#:~:text=We%20propose%20PET%2C%20the%20first,only%20maintain%20partial%20functional%20equivalence.) **OSDI 2021**. [code](https://github.com/thu-pacman/PET). Haojie Wang, Jidong Zhai, Mingyu Gao, Zixuan Ma, Shizhi Tang, Liyan Zheng, Yuanzhi Li, Kaiyuan Rong, Yuanyong Chen, Zhihao Jia. _Tsinghua University_.
+    - [Rammer: Enabling Holistic Deep Learning Compiler Optimizations with rTasks](https://www.usenix.org/conference/osdi20/presentation/ma) **OSDI 2020**. [code](https://github.com/microsoft/nnfusion). Lingxiao Ma, Zhiqiang Xie, Zhi Yang, Jilong Xue, Youshan Miao, Wei Cui, Wenxiang Hu, Fan Yang, Lintao Zhang, Lidong Zhou. _Peking University and Microsoft Research_.
     - [TASO: optimizing deep learning computation with automatic generation of graph substitutions](https://cs.stanford.edu/~padon/taso-sosp19.pdf) **SOSP 2019**. [code](https://github.com/jiazhihao/TASO). Zhihao Jia, Oded Padon, James J. Thomas, Todd Warszawski, Matei Zaharia, Alex Aiken. _Stanford University_.
 
 - Distributed Optimization
@@ -101,10 +109,6 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 
 ## Compilers for CPU
 
-- Sparse or Irregular Optimization
-    - [Optimizing ordered graph algorithms with GraphIt](https://arxiv.org/abs/1911.07260) **CGO 2020**. Yunming Zhang, Ajay Brahmakshatriya, Xinyi Chen, Laxman Dhulipala, Shoaib Kamil, Saman P. Amarasinghe, Julian Shun. _MIT CSAIL_.
-    - [GraphIt: A High-Performance Graph DSL](https://dl.acm.org/doi/10.1145/3276491) **OOPSLA 2018**. Yunming Zhang, Mengjiao Yang, Riyadh Baghdadi, Shoaib Kamil, Julian Shun, Saman P. Amarasinghe. _MIT CSAIL_.
-
 
 ## Compilers for Mobile and Edge
 
@@ -112,23 +116,41 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 ## Compilers for RISC-V
 
 
-## Cross-architecture
+## Compilers for Configurable Hardware
 
-- Scheduling and Tuning
+
+## Design Space Construction and Exploration
+
+- Auto-tuning and Auto-scheduling
     - [Efficient Automatic Scheduling of Imaging and Vision Pipelines for the GPU](https://cseweb.ucsd.edu/~tzli/gpu_autoscheduler.pdf) **OOPSLA 2021**. Luke Anderson, Andrew Adams, Karima Ma, Tzu-Mao Li, Tian Jin, Jonathan Ragan-Kelley. _Massachusetts Institute of Technology_.
     - [Ansor: Generating High-Performance Tensor Programs for Deep Learning](https://www.usenix.org/system/files/osdi20-zheng.pdf) **OSDI 2020**. [code](https://github.com/apache/tvm/tree/main/python/tvm/auto_scheduler). Lianmin Zheng, Chengfan Jia, Minmin Sun, Zhao Wu, Cody Hao Yu, Ameer Haj-Ali, Yida Wang, Jun Yang, Danyang Zhuo, Koushik Sen, Joseph E. Gonzalez, Ion Stoica. _UC Berkeley_.
     - [FlexTensor: An Automatic Schedule Exploration and Optimization Framework for Tensor Computation on Heterogeneous System](https://dl.acm.org/doi/10.1145/3373376.3378508) **ASPLOS 2020**. [code](https://github.com/KnowingNothing/FlexTensor). Size Zheng, Yun Liang, Shuo Wang, Renze Chen, Kaiwen Sheng. _Peking University_.
     - [ProTuner: Tuning Programs with Monte Carlo Tree Search](https://arxiv.org/abs/2005.13685) **arXiv 2020**. Ameer Haj-Ali, Hasan Genc, Qijing Huang, William S. Moses, John Wawrzynek, Krste Asanovic, Ion Stoica. _UC Berkeley_.
     - [Chameleon: Adaptive Code Optimization for Expedited Deep Neural Network Compilation](https://cseweb.ucsd.edu/~bhahn221/doc/paper/iclr20-chameleon.pdf) **ICLR 2020**. [code](https://github.com/anony-sub/chameleon). Byung Hoon Ahn, Prannoy Pilligundla, Amir Yazdanbakhsh, Hadi Esmaeilzadeh. _University of California, San Diego_.
-    - [Taming the Zoo: The Unified GraphIt Compiler Framework for Novel Architectures](https://ieeexplore.ieee.org/document/9499863) **ISCA 2021**. Ajay Brahmakshatriya, Emily Furst, Victor A. Ying, Claire Hsu, Changwan Hong, Max Ruttenberg, Yunming Zhang, Dai Cheol Jung, Dustin Richmond, Michael B. Taylor, Julian Shun, Mark Oskin, Daniel Sánchez, Saman P. Amarasinghe. _MIT CSAIL_.
     - [Learning to Optimize Halide with Tree Search and Random Programs](https://dl.acm.org/doi/10.1145/3306346.3322967) **ACM Trans. Graph 2019**. Andrew Adams, Karima Ma, Luke Anderson, Riyadh Baghdadi, Tzu-Mao Li, Michaël Gharbi, Benoit Steiner, Steven Johnson, Kayvon Fatahalian, Frédo Durand, Jonathan Ragan-Kelley. _Facebook AI Research_.
     - [Learning to Optimize Tensor Programs](https://proceedings.neurips.cc/paper/2018/file/8b5700012be65c9da25f49408d959ca0-Paper.pdf) **NeurIPS 2018**. [code](https://github.com/apache/tvm/tree/main/python/tvm/autotvm). Tianqi Chen, Lianmin Zheng, Eddie Q. Yan, Ziheng Jiang, Thierry Moreau, Luis Ceze, Carlos Guestrin, Arvind Krishnamurthy. _University of Washington_.
     - [Automatically Scheduling Halide Image Processing Pipelines](https://dl.acm.org/doi/pdf/10.1145/2897824.2925952) **ACM Trans. Graph 2016**. Ravi Teja Mullapudi, Andrew Adams, Dillon Sharlet, Jonathan Ragan-Kelley, Kayvon Fatahalian. _Carnegie Mellon University_.
 
-- Dynamic Shape and Control Flow Optimization
+
+## Dynamic Shape and Control Flow
 
 
-## Compilers for Configurable Hardware
+## Sparse Applications, Compilers, and Architectures
+- Compiler Design
+    - [A sparse iteration space transformation framework for sparse tensor algebra](https://dl.acm.org/doi/10.1145/3428226) **OOPSLA 2020**. Ryan Senanayake, Changwan Hong, Ziheng Wang, Amalee Wilson, Stephen Chou, Shoaib Kamil, Saman P. Amarasinghe, Fredrik Kjolstad. _Reservoir Labs_.
+
+## Tree and Graph Applications, Compilers, and Architectures
+- Compiler Design
+    - [GraphIt to CUDA Compiler in 2021 LOC: A Case for High-Performance DSL Implementation via Staging with BuilDSL](https://intimeand.space/docs/CGO2022-BuilDSL.pdf) **CGO 2022**. Ajay Brahmakshatriya, Saman P. Amarasinghe. _CSAIL, MIT_.
+    - [Taming the Zoo: The Unified GraphIt Compiler Framework for Novel Architectures](https://ieeexplore.ieee.org/document/9499863) **ISCA 2021**. Ajay Brahmakshatriya, Emily Furst, Victor A. Ying, Claire Hsu, Changwan Hong, Max Ruttenberg, Yunming Zhang, Dai Cheol Jung, Dustin Richmond, Michael B. Taylor, Julian Shun, Mark Oskin, Daniel Sánchez, Saman P. Amarasinghe. _MIT CSAIL_.
+    - [A Tensor Compiler for Unified Machine Learning Prediction Serving](https://www.usenix.org/conference/osdi20/presentation/nakandala) **OSDI 2020**. [code](https://github.com/microsoft/hummingbird). Supun Nakandala, Karla Saur, Gyeong-In Yu, Konstantinos Karanasos, Carlo Curino, Markus Weimer, Matteo Interlandi. _UC San Diego_.
+    - [Optimizing ordered graph algorithms with GraphIt](https://arxiv.org/abs/1911.07260) **CGO 2020**. Yunming Zhang, Ajay Brahmakshatriya, Xinyi Chen, Laxman Dhulipala, Shoaib Kamil, Saman P. Amarasinghe, Julian Shun. _MIT CSAIL_.
+    - [GraphIt: A High-Performance Graph DSL](https://dl.acm.org/doi/10.1145/3276491) **OOPSLA 2018**. Yunming Zhang, Mengjiao Yang, Riyadh Baghdadi, Shoaib Kamil, Julian Shun, Saman P. Amarasinghe. _MIT CSAIL_.
+
+
+## NAS Compilers and Architectures
+- Compiler Design
+    - [Neural Architecture Search as Program Transformation Exploration](https://dl.acm.org/doi/abs/10.1145/3445814.3446753) **ASPLOS 2021**. Jack Turner, Elliot J. Crowley, Michael F. P. O'Boyle. _University of Edinburgh United Kingdom_.
 
 
 ## Survey and Books
