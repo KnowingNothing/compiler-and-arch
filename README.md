@@ -4,7 +4,7 @@
 
 A list of awesome compilers and optimization techniques (applicable to compilers) for different architectures and emerging domains.
 
->Note: Although some projects are not about compiler design or implementation themselves, we still include them once their techniques are suitable for automation and compiler design.
+>Note: Although some projects are not about compiler design or implementation themselves, we still include them if their techniques are suitable for automation and compiler design.
 
 ## Contents
 
