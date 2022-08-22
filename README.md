@@ -4,7 +4,7 @@
 
 A list of awesome compilers and optimization techniques (applicable to compilers) for different architectures and emerging domains.
 
->Note: Although some projects are not about compiler design or implementation themselves, we still include them once their techniques are suitable for automation and compiler design.
+>Note: Although some projects are not about compiler design or implementation themselves, we still include them if their techniques are suitable for automation and compiler design.
 
 ## Contents
 
@@ -35,9 +35,10 @@ A list of awesome compilers and optimization techniques (applicable to compilers
     - DAC, ICLR, NeurIPS, ATC, OOPSLA
     - CGO, MLSys, SIGGRAPH, PACT, POPL, ICS
     - Euro-Par
+    - ICRC
 - Journals
     - TPDS, TCAD, TC
-    - TACO
+    - TACO, TECS
 - Preprint
     - arXiv
 
@@ -70,6 +71,12 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 
 ## Compilers for PIM
 
+- Software & Hardware Co-Design
+    - [Hardware-Software Co-Design for an Analog-Digital Accelerator for Machine Learning](http://sitaohuang.com/publications/2018_icrc_analog_ml.pdf) **ICRC 2018**. Ambrosi, Joao and Ankit, Aayush and Antunes, Rodrigo and Chalamalasetti, Sai Rahul and Chatterjee, Soumitra and El Hajj, Izzat and Fachini, Guilherme and Faraboschi, Paolo and Foltin, Martin and Huang, Sitao. _Hewlett Packard Enterprise_.
+    - [SIAM: Chiplet-based Scalable In-Memory Acceleration with Mesh for Deep Neural Networks](https://arxiv.org/pdf/2108.08903.pdf) **TECS 2021**. [code](https://github.com/gkrish19/SIAM-Chiplet-based-Scalable-In-Memory-Acceleration-with-Mesh-for-Deep-Neural-Networks). Krishnan, Gokul and Mandal, Sumit K and Pannala, Manvitha and Chakrabarti, Chaitali and Seo, Jae-Sun and Ogras, Umit Y and Cao, Yu. _Arizona State University_.
+
+- End2End Compiler
+    - [OCC: An Automated End-to-End Machine Learning Optimizing Compiler for Computing-In-Memory](https://grosser.science/static/bd7e99f44a1eb746980f3c84ec961858/2107_Khan_TCAD.pdf) **TCAD 2021**. [code](https://github.com/adam-smnk/Open-CIM-Compiler). Siemieniuk, Adam and Chelini, Lorenzo and Khan, Asif Ali and Castrillon, Jeronimo and Drebes, Andi and Corporaal, Henk and Grosser, Tobias and Kong, Martin.  
 
 ## Compilers for Brain-inspired Hardware
 
