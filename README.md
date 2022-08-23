@@ -145,39 +145,45 @@ A list of awesome compilers and optimization techniques (applicable to compilers
   + [T4: Compiling Sequential Code for Effective Speculative Parallelization in Hardware](https://ieeexplore.ieee.org/abstract/document/9138940) **ISCA 2020**. Ying, Victor A. and Jeffrey, Mark C. and Sanchez, Daniel.
   + [Optimizing data-intensive computations in existing libraries with split annotations](https://dl.acm.org/doi/abs/10.1145/3341301.3359652) **SOSP 2019**. Palkar, Shoumik and Zaharia, Matei.
   + [Model-driven transformations for multi- and many-core CPUs](https://dl.acm.org/doi/abs/10.1145/3314221.3314653) **PLDI 2019**. Kong, Martin and Pouchet, Louis-Noel. 
-+ Compiler for Sparse Workload
++ Compilers for Sparse Workloads
   + [Efficient Execution of Graph Algorithms on CPU with SIMD Extensions](https://ieeexplore.ieee.org/abstract/document/9370326/) **CGO 2021**. Zheng, Ruohuang and Pai, Sreepathi. 
   + [Generating piecewise-regular code from irregular structures](https://dl.acm.org/doi/abs/10.1145/3314221.3314615) **PLDI 2019**. Travis Augustine, Janarthanan Sarma, Louis-Noël Pouchet, and Gabriel Rodríguez.
   + [CVR: efficient vectorization of SpMV on x86 processors](https://dl.acm.org/doi/abs/10.1145/3168818) **CGO 2018**. Biwei Xie, Jianfeng Zhan, Xu Liu, Wanling Gao, Zhen Jia, Xiwen He, and Lixin Zhang.
-+ Compiler for Dense Workload
++ Compilers for Dense Workloads
   + [Optimizing N-dimensional, winograd-based convolution for manycore CPUs](https://dl.acm.org/doi/abs/10.1145/3178487.3178496) **PPoPP 2018**. Zhen Jia, Aleksandar Zlateski, Fredo Durand, and Kai Li.
   + [SIMD code generation for stencils on brick decompositions](https://dl.acm.org/doi/abs/10.1145/3200691.3178537) **PPoPP 2018**. Tuowen Zhao, Mary Hall, Protonu Basu, Samuel Williams, and Hans Johansen.
   + [Program generation for small-scale linear algebra applications](https://dl.acm.org/doi/abs/10.1145/3168812) **CGO 2018**. Daniele G. Spampinato, Diego Fabregat-Traver, Paolo Bientinesi, and Markus Püschel.
 
-+ Compiler for Full Network
++ Compilers for End-to-End Networks
   + [SPNC: An Open-Source MLIR-Based Compiler for Fast Sum-Product Network Inference on CPUs and GPUs](https://ieeexplore.ieee.org/abstract/document/9741277/) **CGO 2022**. Sommer, Lukas and Axenie, Cristian and Koch, Andreas.
   + [Multi-target Compiler for the Deployment of Machine Learning Models](https://ieeexplore.ieee.org/abstract/document/8661199) **CGO 2019**. Castro-Lopez, Oscar and Vega-Lopez, Ines F.
 
 ## Compilers for Mobile and Edge
 
-+ [Intelligence Beyond the Edge: Inference on Intermittent Embedded Systems](https://dl.acm.org/doi/abs/10.1145/3297858.3304011) **ASPLOS 2019**. Graham Gobieski, Brandon Lucia, and Nathan Beckmann.
-+ [Time-sensitive Intermittent Computing Meets Legacy Software](https://dl.acm.org/doi/abs/10.1145/3373376.3378476) **ASPLOS 2020**. Vito Kortbeek, Kasim Sinan Yildirim, Abu Bakar, Jacob Sorber, Josiah Hester, and Przemysław Pawełczak.
-+ [PatDNN: Achieving Real-Time DNN Execution on Mobile Devices with Pattern-based Weight Pruning](https://dl.acm.org/doi/abs/10.1145/3373376.3378534) **ASPLOS 2020**. Wei Niu, Xiaolong Ma, Sheng Lin, Shihao Wang, Xuehai Qian, Xue Lin, Yanzhi Wang, and Bin Ren.
-+ [Vectorization for digital signal processors via equality saturation](https://dl.acm.org/doi/abs/10.1145/3445814.3446707) **ASPLOS 2021**. Alexa VanHattum, Rachit Nigam, Vincent T. Lee, James Bornholt, and Adrian Sampson.
-+ [Vector instruction selection for digital signal processors using program synthesis](https://dl.acm.org/doi/abs/10.1145/3503222.3507714) **ASPLOS 2022**. Maaz Bin Safeer Ahmad, Alexander J. Root, Andrew Adams, Shoaib Kamil, and Alvin Cheung.
-+ [AutoScale: Energy Efficiency Optimization for Stochastic Edge Inference Using Reinforcement Learning](https://ieeexplore.ieee.org/abstract/document/9251950/) **MICRO 2020**. Kim, Young Geun and Wu, Carole-Jean.
-+ [Compiling KB-sized machine learning models to tiny IoT devices](https://dl.acm.org/doi/abs/10.1145/3314221.3314597) **PLDI 2019**. Sridhar Gopinath, Nikhil Ghanathe, Vivek Seshadri, and Rahul Sharma.
-+ [Supporting peripherals in intermittent systems with just-in-time checkpoints](https://dl.acm.org/doi/abs/10.1145/3314221.3314613) **PLDI 2019**. Kiwan Maeng and Brandon Lucia.
-+ [Adaptive low-overhead scheduling for periodic and reactive intermittent execution](https://dl.acm.org/doi/abs/10.1145/3385412.3385998) **PLDI 2020**. Kiwan Maeng and Brandon Lucia.
-+ [WARio: efficient code generation for intermittent computing](https://dl.acm.org/doi/abs/10.1145/3519939.3523454) **PLDI 2022**. Vito Kortbeek, Souradip Ghosh, Josiah Hester, Simone Campanoni, and Przemysław Pawełczak.
-+ [Towards a Domain-Extensible Compiler: Optimizing an Image Processing Pipeline on Mobile CPUs](https://ieeexplore.ieee.org/abstract/document/9370337/) **CGO 2021**. Koehler, Thomas and Steuwer, Michel. 
-+ [Energy-Constrained Compression for Deep Neural Networks via Weighted Sparse Projection and Layer Input Masking](https://openreview.net/forum?id=BylBr3C9K7) **ICLR 2019**. Haichuan Yang, Yuhao Zhu, Ji Liu.
-+ [ZeroFL: Efficient On-Device Training for Federated Learning with Local Sparsity](https://arxiv.org/abs/2208.02507) **ICLR 2022**. Xinchi Qiu, Javier Fernandez-Marques, Pedro PB Gusmao, Yan Gao, Titouan Parcollet, Nicholas Donald Lane. 
-+ [Multiple Instance Learning for Efficient Sequential Data Classification on Resource-constrained Devices](https://proceedings.neurips.cc/paper/2018/hash/d9fbed9da256e344c1fa46bb46c34c5f-Abstract.html) **NIPS 2018**. Don Dennis, Chirag Pabbaraju, Harsha Vardhan Simhadri, Prateek Jain. 
-+ [Constrained deep neural network architecture search for IoT devices accounting for hardware calibration](https://proceedings.neurips.cc/paper/2019/hash/f8037f94e53f17a2cc301033ca86d278-Abstract.html) **NIPS 2019**. Florian Scheidegger, Luca Benini, Costas Bekas, A. Cristiano I. Malossi. 
-+ [E2-Train: Training State-of-the-art CNNs with Over 80% Energy Savings](https://proceedings.neurips.cc/paper/2019/hash/663772ea088360f95bac3dc7ffb841be-Abstract.html) **NIPS 2019**. Yue Wang, Ziyu Jiang, Xiaohan Chen, Pengfei Xu, Yang Zhao, Yingyan Lin, Zhangyang Wang.
-+ [MCUNet: Tiny Deep Learning on IoT Devices](https://proceedings.neurips.cc/paper/2020/hash/86c51678350f656dcc7f490a43946ee5-Abstract.html) **NIPS 2020**. Ji Lin, Wei-Ming Chen, Yujun Lin, john cohn, Chuang Gan, Song Han
-+ [Distributed Distillation for On-Device Learning](https://proceedings.neurips.cc/paper/2020/hash/fef6f971605336724b5e6c0c12dc2534-Abstract.html) **NIPS 2020**. Ilai Bistritz, Ariana Mann, Nicholas Bambos.
++ Compilers for Intermittent Devices
+  + [WARio: efficient code generation for intermittent computing](https://dl.acm.org/doi/abs/10.1145/3519939.3523454) **PLDI 2022**. Vito Kortbeek, Souradip Ghosh, Josiah Hester, Simone Campanoni, and Przemysław Pawełczak.
+  + [Time-sensitive Intermittent Computing Meets Legacy Software](https://dl.acm.org/doi/abs/10.1145/3373376.3378476) **ASPLOS 2020**. Vito Kortbeek, Kasim Sinan Yildirim, Abu Bakar, Jacob Sorber, Josiah Hester, and Przemysław Pawełczak.
+  + [Adaptive low-overhead scheduling for periodic and reactive intermittent execution](https://dl.acm.org/doi/abs/10.1145/3385412.3385998) **PLDI 2020**. Kiwan Maeng and Brandon Lucia.
+  + [Intelligence Beyond the Edge: Inference on Intermittent Embedded Systems](https://dl.acm.org/doi/abs/10.1145/3297858.3304011) **ASPLOS 2019**. Graham Gobieski, Brandon Lucia, and Nathan Beckmann.
+  + [Supporting peripherals in intermittent systems with just-in-time checkpoints](https://dl.acm.org/doi/abs/10.1145/3314221.3314613) **PLDI 2019**. Kiwan Maeng and Brandon Lucia.
++ Compilers for Digital Signal Processors
+  + [Vector instruction selection for digital signal processors using program synthesis](https://dl.acm.org/doi/abs/10.1145/3503222.3507714) **ASPLOS 2022**. Maaz Bin Safeer Ahmad, Alexander J. Root, Andrew Adams, Shoaib Kamil, and Alvin Cheung.
+  + [Vectorization for digital signal processors via equality saturation](https://dl.acm.org/doi/abs/10.1145/3445814.3446707) **ASPLOS 2021**. Alexa VanHattum, Rachit Nigam, Vincent T. Lee, James Bornholt, and Adrian Sampson.
++ Optimization for On-device Learning
+  + [POET: Training Neural Networks on Tiny Devices with Integrated Rematerialization and Paging](https://proceedings.mlr.press/v162/patil22b.html) **ICML 2022**. Shishir G. Patil, Paras Jain, Prabal Dutta, Ion Stoica, Joseph Gonzalez.
+  + [ZeroFL: Efficient On-Device Training for Federated Learning with Local Sparsity](https://arxiv.org/abs/2208.02507) **ICLR 2022**. Xinchi Qiu, Javier Fernandez-Marques, Pedro PB Gusmao, Yan Gao, Titouan Parcollet, Nicholas Donald Lane. 
+  + [Distributed Distillation for On-Device Learning](https://proceedings.neurips.cc/paper/2020/hash/fef6f971605336724b5e6c0c12dc2534-Abstract.html) **NIPS 2020**. Ilai Bistritz, Ariana Mann, Nicholas Bambos.
+  + [E2-Train: Training State-of-the-art CNNs with Over 80% Energy Savings](https://proceedings.neurips.cc/paper/2019/hash/663772ea088360f95bac3dc7ffb841be-Abstract.html) **NIPS 2019**. Yue Wang, Ziyu Jiang, Xiaohan Chen, Pengfei Xu, Yang Zhao, Yingyan Lin, Zhangyang Wang.
++ Model Compression for Mobile Devices
+  + [PatDNN: Achieving Real-Time DNN Execution on Mobile Devices with Pattern-based Weight Pruning](https://dl.acm.org/doi/abs/10.1145/3373376.3378534) **ASPLOS 2020**. Wei Niu, Xiaolong Ma, Sheng Lin, Shihao Wang, Xuehai Qian, Xue Lin, Yanzhi Wang, and Bin Ren.
+  + [Compiling KB-sized machine learning models to tiny IoT devices](https://dl.acm.org/doi/abs/10.1145/3314221.3314597) **PLDI 2019**. Sridhar Gopinath, Nikhil Ghanathe, Vivek Seshadri, and Rahul Sharma.
+  + [Energy-Constrained Compression for Deep Neural Networks via Weighted Sparse Projection and Layer Input Masking](https://openreview.net/forum?id=BylBr3C9K7) **ICLR 2019**. Haichuan Yang, Yuhao Zhu, Ji Liu.
++ Optimization for Mobile Device Inference
+  + [Towards a Domain-Extensible Compiler: Optimizing an Image Processing Pipeline on Mobile CPUs](https://ieeexplore.ieee.org/abstract/document/9370337/) **CGO 2021**. Koehler, Thomas and Steuwer, Michel. 
+  + [AutoScale: Energy Efficiency Optimization for Stochastic Edge Inference Using Reinforcement Learning](https://ieeexplore.ieee.org/abstract/document/9251950/) **MICRO 2020**. Kim, Young Geun and Wu, Carole-Jean.
++ Neural Architecture Search for Mobile Devices
+  + [MCUNet: Tiny Deep Learning on IoT Devices](https://proceedings.neurips.cc/paper/2020/hash/86c51678350f656dcc7f490a43946ee5-Abstract.html) **NIPS 2020**. Ji Lin, Wei-Ming Chen, Yujun Lin, john cohn, Chuang Gan, Song Han.
+  + [Constrained deep neural network architecture search for IoT devices accounting for hardware calibration](https://proceedings.neurips.cc/paper/2019/hash/f8037f94e53f17a2cc301033ca86d278-Abstract.html) **NIPS 2019**. Florian Scheidegger, Luca Benini, Costas Bekas, A. Cristiano I. Malossi. 
 
 ## Compilers for RISC-V
 
