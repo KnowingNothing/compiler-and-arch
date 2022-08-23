@@ -129,31 +129,34 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 
 ## Compilers for CPU
 
-+ [AutoTM: Automatic Tensor Movement in Heterogeneous Memory Systems using Integer Linear Programming](https://dl.acm.org/doi/abs/10.1145/3373376.3378465) **ASPLOS 2020**. Mark Hildebrand, Jawad Khan, Sanjeev Trika, Jason Lowe-Power, and Venkatesh Akella.
-+ [VeGen: a vectorizer generator for SIMD and beyond](https://dl.acm.org/doi/abs/10.1145/3445814.3446692) **ASPLOS 2021**. Yishen Chen, Charith Mendis, Michael Carbin, and Saman Amarasinghe.
-+ [T4: Compiling Sequential Code for Effective Speculative Parallelization in Hardware](https://ieeexplore.ieee.org/abstract/document/9138940) **ISCA 2020**. Ying, Victor A. and Jeffrey, Mark C. and Sanchez, Daniel.
-+ [DeepRecSys: A System for Optimizing End-To-End At-Scale Neural Recommendation Inference](https://ieeexplore.ieee.org/abstract/document/9138960/) **ISCA 2020**. Gupta, Udit and Hsia, Samuel and Saraph, Vikram and Wang, Xiaodong and Reagen, Brandon and Wei, Gu-Yeon and Lee, Hsien-Hsin S. and Brooks, David and Wu, Carole-Jean.
-+ [REDUCT: keep it close, keep it cool!: efficient scaling of DNN inference on multi-core CPUs with near-cache compute](https://ieeexplore.ieee.org/abstract/document/9499927/) **ISCA 2021**. Nori, Anant V and Bera, Rahul and Balachandran, Shankar and Rakshit, Joydeep and Omer, Om J and Abuhatzera, Avishaii and Kuttanna, Belliappa and Subramoney, Sreenivas.
-+ [Dorylus: Affordable, Scalable, and Accurate GNN Training with Distributed CPU Servers and Serverless Threads](https://www.usenix.org/conference/osdi21/presentation/thorpe) **OSDI 2021**. Thorpe, John and Qiao, Yifan and Eyolfson, Jonathan and Teng, Shen and Hu, Guanzhou and Jia, Zhihao and Wei, Jinliang and Vora, Keval and Netravali, Ravi and Kim, Miryung and others.
-+ [Optimizing data-intensive computations in existing libraries with split annotations](https://dl.acm.org/doi/abs/10.1145/3341301.3359652) **SOSP 2019**. Palkar, Shoumik and Zaharia, Matei.
-+ [Partial control-flow linearization](https://dl.acm.org/doi/abs/10.1145/3296979.3192413) **PLDI 2018**. Moll, Simon and Hack, Sebastian. 
-+ [Model-driven transformations for multi- and many-core CPUs](https://dl.acm.org/doi/abs/10.1145/3314221.3314653) **PLDI 2019**. Kong, Martin and Pouchet, Louis-Noel. 
-+ [Generating piecewise-regular code from irregular structures](https://dl.acm.org/doi/abs/10.1145/3314221.3314615) **PLDI 2019**. Travis Augustine, Janarthanan Sarma, Louis-Noël Pouchet, and Gabriel Rodríguez.
-+ [All you need is superword-level parallelism: systematic control-flow vectorization with SLP](https://dl.acm.org/doi/abs/10.1145/3519939.3523701) **PLDI 2022**. Yishen Chen, Charith Mendis, and Saman Amarasinghe.
-+ [Optimizing N-dimensional, winograd-based convolution for manycore CPUs](https://dl.acm.org/doi/abs/10.1145/3178487.3178496) **PPoPP 2018**. Zhen Jia, Aleksandar Zlateski, Fredo Durand, and Kai Li.
-+ [SIMD code generation for stencils on brick decompositions](https://dl.acm.org/doi/abs/10.1145/3200691.3178537) **PPoPP 2018**. Tuowen Zhao, Mary Hall, Protonu Basu, Samuel Williams, and Hans Johansen.
-+ [CVR: efficient vectorization of SpMV on x86 processors](https://dl.acm.org/doi/abs/10.1145/3168818) **CGO 2018**. Biwei Xie, Jianfeng Zhan, Xu Liu, Wanling Gao, Zhen Jia, Xiwen He, and Lixin Zhang.
-+ [Look-ahead SLP: auto-vectorization in the presence of commutative operations](https://dl.acm.org/doi/abs/10.1145/3168807) **CGO 2018**. Vasileios Porpodas, Rodrigo C. O. Rocha, and Luís F. W. Góes.
-+ [Program generation for small-scale linear algebra applications](https://dl.acm.org/doi/abs/10.1145/3168812) **CGO 2018**. Daniele G. Spampinato, Diego Fabregat-Traver, Paolo Bientinesi, and Markus Püschel.
-+ [Super-Node SLP: Optimized Vectorization for Code Sequences Containing Operators and Their Inverse Elements](https://ieeexplore.ieee.org/abstract/document/8661192/) **CGO 2019**. V. Porpodas, R. C. O. Rocha, E. Brevnov, L. F. W. Góes and T. Mattson.
-+ [Translating Traditional SIMD Instructions to Vector Length Agnostic Architectures](https://ieeexplore.ieee.org/abstract/document/8661195) **CGO 2019**. Fu, Sheng-Yu and Hsu, Wei-Chung. 
-+ [Extending LLVM for Lightweight SPMD Vectorization: Using SIMD and Vector Instructions Easily from Any Language](https://ieeexplore.ieee.org/abstract/document/8661165/) **CGO 2019**. Kruppe, Robin and Oppermann, Julian and Sommer, Lukas and Koch, Andreas.
-+ [Multi-target Compiler for the Deployment of Machine Learning Models](https://ieeexplore.ieee.org/abstract/document/8661199) **CGO 2019**. Castro-Lopez, Oscar and Vega-Lopez, Ines F.
-+ [NeuroVectorizer: end-to-end vectorization with deep reinforcement learning](https://dl.acm.org/doi/abs/10.1145/3368826.3377928) **CGO 2020**. Ameer Haj-Ali, Nesreen K. Ahmed, Ted Willke, Yakun Sophia Shao, Krste Asanovic, and Ion Stoica.
-+ [Efficient Execution of Graph Algorithms on CPU with SIMD Extensions](https://ieeexplore.ieee.org/abstract/document/9370326/) **CGO 2021**. Zheng, Ruohuang and Pai, Sreepathi. 
-+ [SPNC: An Open-Source MLIR-Based Compiler for Fast Sum-Product Network Inference on CPUs and GPUs](https://ieeexplore.ieee.org/abstract/document/9741277/) **CGO 2022**. Sommer, Lukas and Axenie, Cristian and Koch, Andreas.
-+ [Compiler Auto-Vectorization with Imitation Learning](https://proceedings.neurips.cc/paper/2019/hash/d1d5923fc822531bbfd9d87d4760914b-Abstract.html) **NIPS 2019**. Charith Mendis, Cambridge Yang, Yewen Pu, Dr.Saman Amarasinghe, Michael Carbin. 
-+ [Enabling Fast Differentially Private SGD via Just-in-Time Compilation and Vectorization](https://proceedings.neurips.cc/paper/2021/hash/ddf9029977a61241841edeae15e9b53f-Abstract.html) **NIPS 2021**. Pranav Subramani, Nicholas Vadivelu, Gautam Kamath.
++ Vectorization Optimization
+  + [All you need is superword-level parallelism: systematic control-flow vectorization with SLP](https://dl.acm.org/doi/abs/10.1145/3519939.3523701) **PLDI 2022**. Yishen Chen, Charith Mendis, and Saman Amarasinghe.
+  + [VeGen: a vectorizer generator for SIMD and beyond](https://dl.acm.org/doi/abs/10.1145/3445814.3446692) **ASPLOS 2021**. Yishen Chen, Charith Mendis, Michael Carbin, and Saman Amarasinghe.
+  + [NeuroVectorizer: end-to-end vectorization with deep reinforcement learning](https://dl.acm.org/doi/abs/10.1145/3368826.3377928) **CGO 2020**. Ameer Haj-Ali, Nesreen K. Ahmed, Ted Willke, Yakun Sophia Shao, Krste Asanovic, and Ion Stoica.
+  + [Compiler Auto-Vectorization with Imitation Learning](https://proceedings.neurips.cc/paper/2019/hash/d1d5923fc822531bbfd9d87d4760914b-Abstract.html) **NIPS 2019**. Charith Mendis, Cambridge Yang, Yewen Pu, Dr.Saman Amarasinghe, Michael Carbin. 
+  + [Translating Traditional SIMD Instructions to Vector Length Agnostic Architectures](https://ieeexplore.ieee.org/abstract/document/8661195) **CGO 2019**. Fu, Sheng-Yu and Hsu, Wei-Chung. 
+  + [Extending LLVM for Lightweight SPMD Vectorization: Using SIMD and Vector Instructions Easily from Any Language](https://ieeexplore.ieee.org/abstract/document/8661165/) **CGO 2019**. Kruppe, Robin and Oppermann, Julian and Sommer, Lukas and Koch, Andreas.
+  + [Super-Node SLP: Optimized Vectorization for Code Sequences Containing Operators and Their Inverse Elements](https://ieeexplore.ieee.org/abstract/document/8661192/) **CGO 2019**. V. Porpodas, R. C. O. Rocha, E. Brevnov, L. F. W. Góes and T. Mattson.
+  + [Partial control-flow linearization](https://dl.acm.org/doi/abs/10.1145/3296979.3192413) **PLDI 2018**. Moll, Simon and Hack, Sebastian. 
+  + [Look-ahead SLP: auto-vectorization in the presence of commutative operations](https://dl.acm.org/doi/abs/10.1145/3168807) **CGO 2018**. Vasileios Porpodas, Rodrigo C. O. Rocha, and Luís F. W. Góes.
++ Parallelism and Locality Optimization
+  + [Analytical characterization and design space exploration for optimization of CNNs](https://dl.acm.org/doi/10.1145/3445814.3446759) **ASPLOS 2021**. Rui Li, Yufan Xu, Aravind Sukumaran-Rajam, Atanas Rountev, P. Sadayappan.
+  + [AutoTM: Automatic Tensor Movement in Heterogeneous Memory Systems using Integer Linear Programming](https://dl.acm.org/doi/abs/10.1145/3373376.3378465) **ASPLOS 2020**. Mark Hildebrand, Jawad Khan, Sanjeev Trika, Jason Lowe-Power, and Venkatesh Akella.
+  + [T4: Compiling Sequential Code for Effective Speculative Parallelization in Hardware](https://ieeexplore.ieee.org/abstract/document/9138940) **ISCA 2020**. Ying, Victor A. and Jeffrey, Mark C. and Sanchez, Daniel.
+  + [Optimizing data-intensive computations in existing libraries with split annotations](https://dl.acm.org/doi/abs/10.1145/3341301.3359652) **SOSP 2019**. Palkar, Shoumik and Zaharia, Matei.
+  + [Model-driven transformations for multi- and many-core CPUs](https://dl.acm.org/doi/abs/10.1145/3314221.3314653) **PLDI 2019**. Kong, Martin and Pouchet, Louis-Noel. 
++ Compiler for Sparse Workload
+  + [Efficient Execution of Graph Algorithms on CPU with SIMD Extensions](https://ieeexplore.ieee.org/abstract/document/9370326/) **CGO 2021**. Zheng, Ruohuang and Pai, Sreepathi. 
+  + [Generating piecewise-regular code from irregular structures](https://dl.acm.org/doi/abs/10.1145/3314221.3314615) **PLDI 2019**. Travis Augustine, Janarthanan Sarma, Louis-Noël Pouchet, and Gabriel Rodríguez.
+  + [CVR: efficient vectorization of SpMV on x86 processors](https://dl.acm.org/doi/abs/10.1145/3168818) **CGO 2018**. Biwei Xie, Jianfeng Zhan, Xu Liu, Wanling Gao, Zhen Jia, Xiwen He, and Lixin Zhang.
++ Compiler for Dense Workload
+  + [Optimizing N-dimensional, winograd-based convolution for manycore CPUs](https://dl.acm.org/doi/abs/10.1145/3178487.3178496) **PPoPP 2018**. Zhen Jia, Aleksandar Zlateski, Fredo Durand, and Kai Li.
+  + [SIMD code generation for stencils on brick decompositions](https://dl.acm.org/doi/abs/10.1145/3200691.3178537) **PPoPP 2018**. Tuowen Zhao, Mary Hall, Protonu Basu, Samuel Williams, and Hans Johansen.
+  + [Program generation for small-scale linear algebra applications](https://dl.acm.org/doi/abs/10.1145/3168812) **CGO 2018**. Daniele G. Spampinato, Diego Fabregat-Traver, Paolo Bientinesi, and Markus Püschel.
+
++ Compiler for Full Network
+  + [SPNC: An Open-Source MLIR-Based Compiler for Fast Sum-Product Network Inference on CPUs and GPUs](https://ieeexplore.ieee.org/abstract/document/9741277/) **CGO 2022**. Sommer, Lukas and Axenie, Cristian and Koch, Andreas.
+  + [Multi-target Compiler for the Deployment of Machine Learning Models](https://ieeexplore.ieee.org/abstract/document/8661199) **CGO 2019**. Castro-Lopez, Oscar and Vega-Lopez, Ines F.
 
 ## Compilers for Mobile and Edge
 
