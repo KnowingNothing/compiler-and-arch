@@ -187,6 +187,10 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 
 ## Compilers for RISC-V
 
+ - [MLIR: A Compiler Infrastructure for the End of Moore's Law](https://arxiv.org/abs/2002.11054) **arXiv 2020**, [Github Page](https://github.com/llvm/llvm-project.git). [Document Page](https://mlir.llvm.org/). Chris Lattner, Jacques A. Pienaar, Mehdi Amini, Uday Bondhugula, River Riddle, Albert Cohen, Tatiana Shpeisman, Andy Davis, Nicolas Vasilache, Oleksandr Zinenko. _Google_.
+ - [BUDDY MLIR: MLIR-Based Ideas Landing Project](https://github.com/buddy-compiler/buddy-mlir)
+
+
 
 ## Compilers for Configurable Hardware
 
