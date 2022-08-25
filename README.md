@@ -199,7 +199,14 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 
 
 ## Compilers for Configurable Hardware
-
+  - Domain specific lanagage
+    - [HeteroFlow: An Accelerator Programming Model with Decoupled Data Placement for Software-Defined FPGAs](https://dl.acm.org/doi/10.1145/3490422.3502369) **FPGA 2022**. Shaojie Xiang, Yihsiang Lai, Yuan Zhou, Hongzheng Chen, Niansong Zhang, Debjit Pal, and Zhiru Zhang
+    - [HeteroCL: A Multi-Paradigm Programming Infrastructure for Software-Defined Reconfigurable Computing](https://dl.acm.org/doi/10.1145/3289602.3293910) **FPGA 2019**. Yihsiang Lai, Yuze Chi, Yuwei Hu, Jie Wang, Cody Hao Yu, Yuan Zhou, Jason Cong, and Zhiru Zhang
+    - [T2S-Tensor: Productively Generating High-Performance Spatial Hardware for Dense Tensor Computations](https://ieeexplore.ieee.org/document/8735529) **FCCM 2019**. Nitish Kumar Srivastava, Hongbo Rong, Prithayan Barua, Guanyu Feng, Huanqi Cao, Zhiru Zhang, David H. Albonesi, Vivek Sarkar, Wenguang Chen, Paul Petersen, Geoff Lowney, Adam Herr, Christopher J. Hughes, Timothy G. Mattson and Pradeep Dubey
+    - [SuSy: A Programming Model for Productive Construction of High-Performance Systolic Arrays on FPGAs](https://dl.acm.org/doi/10.1145/3400302.3415644) **ICCAD 2020**. Lai, Yi-Hsiang, Rong, Hongbo, Zheng, Size, Zhang, Weihao, Cui, Xiuping, Jia, Yunshan, Wang, Jie, Sullivan, Brendan, Zhang, Zhiru, Liang, Yun, Youhui Zhang, Jason Cong, Nithin George, Jose Alvarez, Christopher J. Hughes and Pradeep Dubey
+    - [Darkroom: compiling high-level image processing code into hardware pipelines](https://dl.acm.org/doi/10.1145/2601097.2601174) **TOG 2014**. James Hegarty, John Brunhaver, Zachary DeVito, Jonathan Ragan Kelley, Noy Cohen, Steven Bell, Artem Vasilyev, Mark Horowitz and Pat Hanrahan
+    - [Spatial: a language and compiler for application accelerators](https://dl.acm.org/doi/10.1145/3192366.3192379) **PLDI 2018**. David Koeplinger, Matthew Feldman, Raghu Prabhakar, Yaqi Zhang, Stefan Hadjis, Ruben Fiszel, Tian Zhao, Luigi Nardi, Ardavan Pedram, Christos Kozyrakis and Kunle Olukotun
+    - [A Unified Backend for Targeting FPGAs from DSLs](https://ieeexplore.ieee.org/document/8445108) **ASAP 2018**. Emanuele Del Sozzo, Riyadh Baghdadi, Saman Amarasinghe, and Marco D. Santambrogio
 
 ## Design Space Construction and Exploration
 
