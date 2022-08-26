@@ -190,9 +190,9 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 - DSL Compilers
     - [BUDDY MLIR: MLIR-Based Ideas Landing Project](https://github.com/buddy-compiler/buddy-mlir)
 - Others
-    - [HW/SW approaches for RISC-V code size reduction](https://carrv.github.io/2020/papers/CARRV2020_paper_12_Perotti.pdf) **CARRV 2020**. Perotti, M., Schiavone, P. D., Tagliavini, G., Rossi, D., Kurd, T., Hill, M., ... & Benini, L.
+    - [HW/SW approaches for RISC-V code size reduction](https://carrv.github.io/2020/papers/CARRV2020_paper_12_Perotti.pdf) **CARRV 2020**. Perotti, Matteo, et al.
     - [Automatic Code Generation for Rocket Chip RoCC Accelerators](https://carrv.github.io/2020/papers/CARRV2020_paper_3_Xu.pdf) **CARRV 2020**. Xu, Pengcheng, and Yun Liang.
-    - [Experiments and optimizations for TVM on RISC-V Architectures with P Extension](https://ieeexplore.ieee.org/document/9196477) **VLSI-DAT 2020**. Chen, Yi-Ru
+    - [Experiments and optimizations for TVM on RISC-V Architectures with P Extension](https://ieeexplore.ieee.org/document/9196477) **VLSI-DAT 2020**. Chen, Yi-Ru.
     - [Enabling TVM on RISC-V Architectures with SIMD Instructions](https://riscv.org/wp-content/uploads/2019/03/16.45-Enabling-TVM-on-RISC-V-Architectures-with-SIMD-Instructions-v2.pdf) **RISC-V Workshop 2019**
     - [Towards Deep Learning using TensorFlow Lite on RISC-V](https://projects.iq.harvard.edu/files/edge/files/carrv_workshop_submission_2019_camera_ready.pdf) **CARRV 2019** Louis, Marcia Sahaya, et al.
 
