@@ -197,7 +197,7 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 
 
 ## Compilers for Configurable Hardware
-  - Domain specific lanagage
+  - Domain specific langage
     - [HeteroFlow: An Accelerator Programming Model with Decoupled Data Placement for Software-Defined FPGAs](https://dl.acm.org/doi/10.1145/3490422.3502369) **FPGA 2022**. Shaojie Xiang, Yihsiang Lai, Yuan Zhou, Hongzheng Chen, Niansong Zhang, Debjit Pal, and Zhiru Zhang
     - [HeteroCL: A Multi-Paradigm Programming Infrastructure for Software-Defined Reconfigurable Computing](https://dl.acm.org/doi/10.1145/3289602.3293910) **FPGA 2019**. Yihsiang Lai, Yuze Chi, Yuwei Hu, Jie Wang, Cody Hao Yu, Yuan Zhou, Jason Cong, and Zhiru Zhang
     - [T2S-Tensor: Productively Generating High-Performance Spatial Hardware for Dense Tensor Computations](https://ieeexplore.ieee.org/document/8735529) **FCCM 2019**. Nitish Kumar Srivastava, Hongbo Rong, Prithayan Barua, Guanyu Feng, Huanqi Cao, Zhiru Zhang, David H. Albonesi, Vivek Sarkar, Wenguang Chen, Paul Petersen, Geoff Lowney, Adam Herr, Christopher J. Hughes, Timothy G. Mattson and Pradeep Dubey
