@@ -236,12 +236,12 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 
 ## Dynamic Shape and Control Flow
 - Dynamic Shape
-    - [The CoRa Tensor Compiler: Compilation for Ragged Tensors with Minimal Padding](https://proceedings.mlsys.org/paper/2022/file/d3d9446802a44259755d38e6d163e820-Paper.pdf) **MLSys22** Pratik Fegade, Tianqi Chen, Phillip Gibbons, Todd Mowry _CMU_
+    - [The CoRa Tensor Compiler: Compilation for Ragged Tensors with Minimal Padding](https://proceedings.mlsys.org/paper/2022/file/d3d9446802a44259755d38e6d163e820-Paper.pdf) **MLSys22** Pratik Fegade, Tianqi Chen, Phillip Gibbons, Todd Mowry. _CMU_.
 - Dynamic Control Flow
-     - [DVABatch: Diversity-aware Multi-Entry Multi-Exit Batching for Efficient Processing of DNN Services on GPUs](https://www.usenix.org/system/files/atc22-cui.pdf)  **ATC22** [code](https://github.com/sjtu-epcc/DVABatch.git) Weihao Cui, Han Zhao, Quan Chen, Hao Wei, and Zirui Li,  Deze Zeng, Chao Li, Minyi Gu _Shanghai Jiao Tong University_
-     - [Cortex: A Compiler for Recursive Deep Learning Models](https://proceedings.mlsys.org/paper/2021/file/182be0c5cdcd5072bb1864cdee4d3d6e-Paper.pdf) **MLSys 21** Pratik Fegade, Tianqi Chen, Phillip Gibbons, Todd Mowry _CMU_
-     - [Cavs: An Efficient Runtime System for Dynamic Neural Networks](https://www.usenix.org/system/files/conference/atc18/atc18-xu-shizhen.pdf)  **ATC18** [code](https://github.com/zhisbug/Cavs.git) Shizhen Xu, Hao Zhang, Graham Neubig, and Wei Dai, Jin Kyu Kim, Zhijie Deng, Qirong Ho,Guangwen Yang,Eric P. Xing _CMU THU_
-     - [On-the-fly Operation Batching in Dynamic Computation Graphs](https://proceedings.neurips.cc/paper/2017/file/c902b497eb972281fb5b4e206db38ee6-Paper.pdf)  **NIPS17** [code](https://github.com/clab/dynet.git)  Graham Neubig, Yoav Goldberg, Chris Dyer _CMU_
+     - [DVABatch: Diversity-aware Multi-Entry Multi-Exit Batching for Efficient Processing of DNN Services on GPUs](https://www.usenix.org/system/files/atc22-cui.pdf)  **ATC22** [code](https://github.com/sjtu-epcc/DVABatch.git) Weihao Cui, Han Zhao, Quan Chen, Hao Wei, and Zirui Li,  Deze Zeng, Chao Li, Minyi Gu. _Shanghai Jiao Tong University_.
+     - [Cortex: A Compiler for Recursive Deep Learning Models](https://proceedings.mlsys.org/paper/2021/file/182be0c5cdcd5072bb1864cdee4d3d6e-Paper.pdf) **MLSys 21** Pratik Fegade, Tianqi Chen, Phillip Gibbons, Todd Mowry. _CMU_.
+     - [Cavs: An Efficient Runtime System for Dynamic Neural Networks](https://www.usenix.org/system/files/conference/atc18/atc18-xu-shizhen.pdf)  **ATC18** [code](https://github.com/zhisbug/Cavs.git) Shizhen Xu, Hao Zhang, Graham Neubig, and Wei Dai, Jin Kyu Kim, Zhijie Deng, Qirong Ho,Guangwen Yang,Eric P. Xing. _CMU THU_.
+     - [On-the-fly Operation Batching in Dynamic Computation Graphs](https://proceedings.neurips.cc/paper/2017/file/c902b497eb972281fb5b4e206db38ee6-Paper.pdf)  **NIPS17** [code](https://github.com/clab/dynet.git)  Graham Neubig, Yoav Goldberg, Chris Dyer. _CMU_.
 
     
 ## Sparse Applications, Compilers, and Architectures
