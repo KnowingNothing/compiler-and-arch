@@ -235,15 +235,21 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 
 
 ## Dynamic Shape and Control Flow
-- Dynamic Shape
-    - [The CoRa Tensor Compiler: Compilation for Ragged Tensors with Minimal Padding](https://proceedings.mlsys.org/paper/2022/file/d3d9446802a44259755d38e6d163e820-Paper.pdf) **MLSys22** Pratik Fegade, Tianqi Chen, Phillip Gibbons, Todd Mowry. _CMU_.
-- Dynamic Control Flow
-     - [DVABatch: Diversity-aware Multi-Entry Multi-Exit Batching for Efficient Processing of DNN Services on GPUs](https://www.usenix.org/system/files/atc22-cui.pdf)  **ATC22** [code](https://github.com/sjtu-epcc/DVABatch.git) Weihao Cui, Han Zhao, Quan Chen, Hao Wei, and Zirui Li,  Deze Zeng, Chao Li, Minyi Gu. _Shanghai Jiao Tong University_.
-     - [Cortex: A Compiler for Recursive Deep Learning Models](https://proceedings.mlsys.org/paper/2021/file/182be0c5cdcd5072bb1864cdee4d3d6e-Paper.pdf) **MLSys 21** Pratik Fegade, Tianqi Chen, Phillip Gibbons, Todd Mowry. _CMU_.
-     - [Cavs: An Efficient Runtime System for Dynamic Neural Networks](https://www.usenix.org/system/files/conference/atc18/atc18-xu-shizhen.pdf)  **ATC18** [code](https://github.com/zhisbug/Cavs.git) Shizhen Xu, Hao Zhang, Graham Neubig, and Wei Dai, Jin Kyu Kim, Zhijie Deng, Qirong Ho,Guangwen Yang,Eric P. Xing. _CMU THU_.
+- Dynamic Shape Operator
+    - [DietCode: Automatic Optimization for Dynamic Tensor Programs]() **MLSys 2022** [code](https://github.com/UofT-EcoSystem/DietCode) Bojian Zheng, Ziheng Jiang, Cody Hao Yu, Haichen Shen, Joshua Fromm, Yizhi Liu, Yida Wang, Luis Ceze, Tianqi Chen, Gennady Pekhimenko. *AWS*.
+    - [The CoRa Tensor Compiler: Compilation for Ragged Tensors with Minimal Padding](https://proceedings.mlsys.org/paper/2022/file/d3d9446802a44259755d38e6d163e820-Paper.pdf) **MLSys 2022** Pratik Fegade, Tianqi Chen, Phillip Gibbons, Todd Mowry. _CMU_.
+    - [Nimble: Efficiently Compiling Dynamic Neural Networks for Model Inference](https://proceedings.mlsys.org/paper/2021/hash/4e732ced3463d06de0ca9a15b6153677-Abstract.html) **MLSys 2021** Haichen Shen, Jared Roesch, Zhi Chen, Wei Chen, Yong Wu, Mu Li, Vin Sharma, Zachary Tatlock, Yida Wang. *AWS*.
+- Dynamic Computation Graph
+     - [DVABatch: Diversity-aware Multi-Entry Multi-Exit Batching for Efficient Processing of DNN Services on GPUs](https://www.usenix.org/system/files/atc22-cui.pdf)  **ATC 2022** [code](https://github.com/sjtu-epcc/DVABatch.git) Weihao Cui, Han Zhao, Quan Chen, Hao Wei, and Zirui Li,  Deze Zeng, Chao Li, Minyi Gu. _Shanghai Jiao Tong University_.
+     - [Cortex: A Compiler for Recursive Deep Learning Models](https://proceedings.mlsys.org/paper/2021/file/182be0c5cdcd5072bb1864cdee4d3d6e-Paper.pdf) **MLSys 2021** Pratik Fegade, Tianqi Chen, Phillip Gibbons, Todd Mowry. _CMU_.
+     - [Nimble: Efficiently Compiling Dynamic Neural Networks for Model Inference](https://proceedings.mlsys.org/paper/2021/hash/4e732ced3463d06de0ca9a15b6153677-Abstract.html) **MLSys 2021** Haichen Shen, Jared Roesch, Zhi Chen, Wei Chen, Yong Wu, Mu Li, Vin Sharma, Zachary Tatlock, Yida Wang. *AWS*.
+     - [DISC: A Dynamic Shape Compiler for Machine Learning Workloads](https://dl.acm.org/doi/abs/10.1145/3437984.3458838) **EuroMLSys 2021** [code](https://github.com/alibaba/BladeDISC) K. Zhu, W.Y. Zhao, Z. Zheng, T.Y. Guo, P.Z. Zhao, J.J. Bai, J. Yang, X.Y. Liu, L.S. Diao, and W. Lin. *Alibaba*.
+     - [Cavs: An Efficient Runtime System for Dynamic Neural Networks](https://www.usenix.org/system/files/conference/atc18/atc18-xu-shizhen.pdf)  **ATC 2018** [code](https://github.com/zhisbug/Cavs.git) Shizhen Xu, Hao Zhang, Graham Neubig, and Wei Dai, Jin Kyu Kim, Zhijie Deng, Qirong Ho,Guangwen Yang,Eric P. Xing. _CMU THU_.
      - [On-the-fly Operation Batching in Dynamic Computation Graphs](https://proceedings.neurips.cc/paper/2017/file/c902b497eb972281fb5b4e206db38ee6-Paper.pdf)  **NIPS17** [code](https://github.com/clab/dynet.git)  Graham Neubig, Yoav Goldberg, Chris Dyer. _CMU_.
-
+     - [Deep Learning with Dynamic Computation Graphs](https://arxiv.org/abs/1702.02181) **ICLR 2017** Moshe Looks, Marcello Herreshoff, DeLesley Hutchins, Peter Norvig. *Google.*
+     - [DyNet: The Dynamic Neural Network Toolkit](https://arxiv.org/abs/1701.03980) **arXiv 2017** [code](https://github.com/clab/dynet) Graham Neubig, Chris Dyer, Yoav Goldberg, Austin Matthews, Waleed Ammar, Antonios Anastasopoulos, Miguel Ballesteros, David Chiang, Daniel Clothiaux, Trevor Cohn, Kevin Duh, Manaal Faruqui, Cynthia Gan, Dan Garrette, Yangfeng Ji, Lingpeng Kong, Adhiguna Kuncoro, Gaurav Kumar, Chaitanya Malaviya, Paul Michel, Yusuke Oda, Matthew Richardson, Naomi Saphra, Swabha Swayamdipta, Pengcheng Yin. *CMU.*
     
+
 ## Sparse Applications, Compilers, and Architectures
 - Compiler Design
     - [SparseTIR: Composable Abstractions for Sparse Compilation in Deep Learning](https://arxiv.org/pdf/2207.04606.pdf) **arXiv 2022**. Zihao Ye, Ruihang Lai, Junru Shao, Tianqi Chen, Luis Ceze. _University of Washington_.
