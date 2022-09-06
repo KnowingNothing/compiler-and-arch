@@ -8,6 +8,7 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 
 ## Contents
 
+
 - [Compilers and Architectures](#compilers-and-architectures)
 - [Contents](#contents)
 - [List of Conferences and Journals Considered](#list-of-conferences-and-journals-considered)
@@ -29,12 +30,7 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 - [Cost Model](#cost-model)
 - [Survey and Books](#survey-and-books)
 - [Talks, Tutorials, and Videos](#talks-tutorials-and-videos)
-](#sparse-applications-compilers-and-architectures)
-- [Tree and Graph Applications, Compilers, and Architectures](#tree-and-graph-applications-compilers-and-architectures)
-- [NAS Compilers and Architectures](#nas-compilers-and-architectures)
-- [Security and Privacy](#security-and-privacy)
-- [Survey and Books](#survey-and-books)
-- [Talks, Tutorials, and Videos](#talks-tutorials-and-videos)
+
 
 
 ## List of Conferences and Journals Considered
