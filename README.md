@@ -8,6 +8,8 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 
 ## Contents
 
+- [Compilers and Architectures](#compilers-and-architectures)
+- [Contents](#contents)
 - [List of Conferences and Journals Considered](#list-of-conferences-and-journals-considered)
 - [Compiler Toolchain](#compiler-toolchain)
 - [Compilers for AI chips](#compilers-for-ai-chips)
@@ -20,7 +22,13 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 - [Compilers for Configurable Hardware](#compilers-for-configurable-hardware)
 - [Design Space Construction and Exploration](#design-space-construction-and-exploration)
 - [Dynamic Shape and Control Flow](#dynamic-shape-and-control-flow)
-- [Sparse Applications, Compilers, and Architectures
+- [Sparse Applications, Compilers, and Architectures](#sparse-applications-compilers-and-architectures)
+- [Tree and Graph Applications, Compilers, and Architectures](#tree-and-graph-applications-compilers-and-architectures)
+- [NAS Compilers and Architectures](#nas-compilers-and-architectures)
+- [Security and Privacy](#security-and-privacy)
+- [Cost Model](#cost-model)
+- [Survey and Books](#survey-and-books)
+- [Talks, Tutorials, and Videos](#talks-tutorials-and-videos)
 ](#sparse-applications-compilers-and-architectures)
 - [Tree and Graph Applications, Compilers, and Architectures](#tree-and-graph-applications-compilers-and-architectures)
 - [NAS Compilers and Architectures](#nas-compilers-and-architectures)
@@ -78,12 +86,29 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 - Software & Hardware Co-Design
     - [Hardware-Software Co-Design for an Analog-Digital Accelerator for Machine Learning](http://sitaohuang.com/publications/2018_icrc_analog_ml.pdf) **ICRC 2018**. Ambrosi, Joao and Ankit, Aayush and Antunes, Rodrigo and Chalamalasetti, Sai Rahul and Chatterjee, Soumitra and El Hajj, Izzat and Fachini, Guilherme and Faraboschi, Paolo and Foltin, Martin and Huang, Sitao. _Hewlett Packard Enterprise_.
     - [SIAM: Chiplet-based Scalable In-Memory Acceleration with Mesh for Deep Neural Networks](https://arxiv.org/pdf/2108.08903.pdf) **TECS 2021**. [code](https://github.com/gkrish19/SIAM-Chiplet-based-Scalable-In-Memory-Acceleration-with-Mesh-for-Deep-Neural-Networks). Krishnan, Gokul and Mandal, Sumit K and Pannala, Manvitha and Chakrabarti, Chaitali and Seo, Jae-Sun and Ogras, Umit Y and Cao, Yu. _Arizona State University_.
+    - [FPSA: A Full System Stack Solution for Reconfigurable ReRAM-based NN Accelerator Architecture](https://dl.acm.org/doi/pdf/10.1145/3297858.3304048) **ASPLOS 2019**. Yu Ji, Youyang Zhang, Xinfeng Xie, Shuangchen Li, Peiqi Wang, Xing Hu, Youhui Zhang, Yuan Xie. _Tsinghua University_
 
 - End2End Compiler
-    - [OCC: An Automated End-to-End Machine Learning Optimizing Compiler for Computing-In-Memory](https://grosser.science/static/bd7e99f44a1eb746980f3c84ec961858/2107_Khan_TCAD.pdf) **TCAD 2021**. [code](https://github.com/adam-smnk/Open-CIM-Compiler). Siemieniuk, Adam and Chelini, Lorenzo and Khan, Asif Ali and Castrillon, Jeronimo and Drebes, Andi and Corporaal, Henk and Grosser, Tobias and Kong, Martin.  
+    - [OCC: An Automated End-to-End Machine Learning Optimizing Compiler for Computing-In-Memory](https://grosser.science/static/bd7e99f44a1eb746980f3c84ec961858/2107_Khan_TCAD.pdf) **TCAD 2021**. [code](https://github.com/adam-smnk/Open-CIM-Compiler). Siemieniuk, Adam and Chelini, Lorenzo and Khan, Asif Ali and Castrillon, Jeronimo and Drebes, Andi and Corporaal, Henk and Grosser, Tobias and Kong, Martin.
+
+- Code Offloading, Mapping and Scheduling
+    - [Scheduling Techniques for GPU Architectures with Processing-In-Memory Capabilities](https://dl.acm.org/doi/pdf/10.1145/2967938.2967940) **PACT 2016**. Ashutosh Pattnaik, Xulong Tang, Adwait Jog, Onur Kayiran, Asit K. Mishra, Mahmut T. Kandemir, Onur Mutlu, Chita R. Das. _Pennsylvania State University_
+    - [Transparent Offloading and Mapping (TOM): Enabling Programmer-Transparent Near-Data Processing in GPU Systems](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7551394) **ISCA 2016**. 	Kevin Hsieh, Eiman Ebrahimi, Gwangsun Kim, Niladrish Chatterjee, Mike O'Connor, Nandita Vijaykumar, Onur Mutlu, Stephen W. Keckler. _Carnegie Mellon University_
+    - [To PIM or not for emerging general purpose processing in DDR memory systems](https://dl.acm.org/doi/pdf/10.1145/3470496.3527431) **ISCA 2022**. Alexandar Devic, Siddhartha Balakrishna Rai, Anand Sivasubramaniam, Ameen Akel, Sean Eilert, Justin Eno. _The Pennsylvania State University_ 
+
+- Synthesis
+    - [Simple magic: Synthesis and in-memory Mapping of logic execution for memristor-aided logic](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8203782) **ICCAD 2017**. Rotem Ben Hur, Nimrod Wald, Nishil Talati, Shahar Kvatinsky. _Israel Institute of Technology_
+    - [SIMPLER MAGIC: Synthesis and Mapping of In-Memory Logic Executed in a single Row to Improve Throughput]() **TCAD 2020**. Rotem Ben Hur, Ronny Ronen, Ameer Haj Ali, Debjyoti Bhattacharjee, Adi Eliahu, Natan Peled, Shahar Kvatinsky. _Israel Institute of Technology_
+    - [SSR: A Skeleton-based Synthesis Flow for Hybrid Processing-in-RRAM modes](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9643493) **ICCAD 2021**. Feng Wang, Guangyu Sun, Guojie Luo. _Peking University_
+    - [SIMDRAM: a framework for bit-serial SIMD processing using DRAM](https://dl.acm.org/doi/pdf/10.1145/3445814.3446749) **ASPLOS 2021**. Nastaran Hajinazar, Geraldo F. Oliveira, Sven Gregorio, João Dinis Ferreira, Nika Mansouri-Ghiasi, Minesh Patel, Mohammed Alser, Saugata Ghose, Juan Gómez-Luna, Onur Mutlu. _ETH Zürich_
 
 ## Compilers for Brain-inspired Hardware
-
+- Network Transformation and Training
+    - [Bridge the Gap between Neural Networks and Neuromorphic Hardware with a Neural Network Compiler](https://dl.acm.org/doi/pdf/10.1145/3173162.3173205) **ASPLOS 2018**. 	Yu Ji, Youhui Zhang, Wenguang Chen, Yuan Xie. _Tsinghua University_
+    - [NEUTRAMS: Neural network transformation and co-design under neuromorphic hardware constraints](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7783724) **MICRO 2016**. Yu Ji, Youhui Zhang, Shuangchen Li, Ping Chi, Cihang Jiang, Peng Qu, Yuan Xie, Wenguang Chen. _Tsinghua University_
+- Network Mapping
+    - [A Design Flow for Mapping Spiking Neural Networks to Many-Core Neuromorphic Hardware](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9643500) **ICCAD 2021**. Shihao Song, M. Lakshmi Varshika, Anup Das, Nagarajan Kandasamy. _Drexel University_
+    - [Mapping spiking neural networks onto a manycore neuromorphic architecture](https://dl.acm.org/doi/pdf/10.1145/3192366.3192371) **PLDI 2018**. Chit-Kwan Lin, Andreas Wild, Gautham N. Chinya, Tsung-Han Lin, Mike Davies, Hong Wang. _INTEL_
 
 ## Compilers for SIMT GPU
 - Efficient Compute-intensive Kernel Generation
