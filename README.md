@@ -9,8 +9,6 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 ## Contents
 
 
-- [Compilers and Architectures](#compilers-and-architectures)
-- [Contents](#contents)
 - [List of Conferences and Journals Considered](#list-of-conferences-and-journals-considered)
 - [Compiler Toolchain](#compiler-toolchain)
 - [Compilers for AI chips](#compilers-for-ai-chips)
