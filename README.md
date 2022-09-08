@@ -83,7 +83,9 @@ A list of awesome compilers and optimization techniques (applicable to compilers
     - [FPSA: A Full System Stack Solution for Reconfigurable ReRAM-based NN Accelerator Architecture](https://dl.acm.org/doi/pdf/10.1145/3297858.3304048) **ASPLOS 2019**. Yu Ji, Youyang Zhang, Xinfeng Xie, Shuangchen Li, Peiqi Wang, Xing Hu, Youhui Zhang, Yuan Xie. _Tsinghua University_
 
 - End2End Compiler
+    -[PUMA: A Programmable Ultra-efficient Memristor-based Accelerator for Machine Learning Inference](https://dl.acm.org/doi/10.1145/3297858.3304049) **ASPLOS 2019**. [code](https://github.com/illinois-impact/puma-compiler) A. Ankit, I. El Hajj, S. Chalamalasetti, G. Ndu, M. Foltin, R. S. Williams, P. Faraboschi, W.-M. Hwu, J. P. Strachan, K. Roy, D. Milojicic. _Purdue University_
     - [OCC: An Automated End-to-End Machine Learning Optimizing Compiler for Computing-In-Memory](https://grosser.science/static/bd7e99f44a1eb746980f3c84ec961858/2107_Khan_TCAD.pdf) **TCAD 2021**. [code](https://github.com/adam-smnk/Open-CIM-Compiler). Siemieniuk, Adam and Chelini, Lorenzo and Khan, Asif Ali and Castrillon, Jeronimo and Drebes, Andi and Corporaal, Henk and Grosser, Tobias and Kong, Martin.
+    -[Polyhedral-Based Compilation Framework for In-Memory Neural Network Accelerators](https://dl.acm.org/doi/10.1145/3469847) **JETCS 2021**. [code](https://github.com/Jianhui-Han/polyxb/tree/22acd3059a3712d63802ecf100a3ec2973c9b8ab). Jianhui Han, Xiang Fei, Zhaolin Li, Youhui Zhang. _Tsinghua University_
 
 - Code Offloading, Mapping and Scheduling
     - [Scheduling Techniques for GPU Architectures with Processing-In-Memory Capabilities](https://dl.acm.org/doi/pdf/10.1145/2967938.2967940) **PACT 2016**. Ashutosh Pattnaik, Xulong Tang, Adwait Jog, Onur Kayiran, Asit K. Mishra, Mahmut T. Kandemir, Onur Mutlu, Chita R. Das. _Pennsylvania State University_
