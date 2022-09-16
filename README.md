@@ -297,14 +297,16 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 ## NAS Compilers and Architectures
 - Compiler Design
     - [Neural Architecture Search as Program Transformation Exploration](https://dl.acm.org/doi/abs/10.1145/3445814.3446753) **ASPLOS 2021**. Jack Turner, Elliot J. Crowley, Michael F. P. O'Boyle. _University of Edinburgh United Kingdom_.
+    
+- Architecture Design
+    - [NASA: Accelerating Neural Network Design with a NAS Processor](https://ieeexplore.ieee.org/document/9499756) **ISCA 2021**. Xiaohan Ma, Chang Si, Ying Wang, Cheng Liu, Lei Zhang. _CAS University of Chinese Academy of Sciences_.
 
 
 ## Security and Privacy
 - Compiler Design
     - [PlaidML-HE: Acceleration of Deep Learning Kernels to Compute on Encrypted Data](https://ieeexplore.ieee.org/document/8988676) **ICCD 2019**. Huili Chen, Rosario Cammarota, Felipe Valencia, Francesco Regazzoni. _Intel AI Privacy and Security Research_.
 
-- Architecture Design
-    - [NASA: Accelerating Neural Network Design with a NAS Processor](https://ieeexplore.ieee.org/document/9499756) **ISCA 2021**. Xiaohan Ma, Chang Si, Ying Wang, Cheng Liu, Lei Zhang. _CAS University of Chinese Academy of Sciences_.
+
 
 
 ## Cost Model
