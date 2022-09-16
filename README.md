@@ -61,6 +61,7 @@ A list of awesome compilers and optimization techniques (applicable to compilers
     - [Halide: a language and compiler for optimizing parallelism, locality, and recomputation in image processing pipelines](https://people.csail.mit.edu/jrk/halide-pldi13.pdf) **PLDI 2013**. [Github Page](https://github.com/halide/Halide). [Document Page](https://halide-lang.org/docs/). Jonathan Ragan-Kelley, Connelly Barnes, Andrew Adams, Sylvain Paris, Frédo Durand, Saman P. Amarasinghe. _MIT CSAIL_.
 
 - Close-source (binary available)
+    - [TensorRT](https://developer.nvidia.com/tensorrt) with some components open-source at [Github](https://github.com/NVIDIA/TensorRT).
 
 
 ## Compilers for AI chips
@@ -301,6 +302,9 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 ## Security and Privacy
 - Compiler Design
     - [PlaidML-HE: Acceleration of Deep Learning Kernels to Compute on Encrypted Data](https://ieeexplore.ieee.org/document/8988676) **ICCD 2019**. Huili Chen, Rosario Cammarota, Felipe Valencia, Francesco Regazzoni. _Intel AI Privacy and Security Research_.
+
+- Architecture Design
+    - [NASA: Accelerating Neural Network Design with a NAS Processor](https://ieeexplore.ieee.org/document/9499756) **ISCA 2021**. Xiaohan Ma, Chang Si, Ying Wang, Cheng Liu, Lei Zhang. _CAS University of Chinese Academy of Sciences_.
 
 
 ## Cost Model
