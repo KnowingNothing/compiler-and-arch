@@ -186,6 +186,7 @@ A list of awesome compilers and optimization techniques (applicable to compilers
   + [Intelligence Beyond the Edge: Inference on Intermittent Embedded Systems](https://dl.acm.org/doi/abs/10.1145/3297858.3304011) **ASPLOS 2019**. Graham Gobieski, Brandon Lucia, and Nathan Beckmann. *Carnegie Mellon University, USA*.
   + [Supporting peripherals in intermittent systems with just-in-time checkpoints](https://dl.acm.org/doi/abs/10.1145/3314221.3314613) **PLDI 2019**. Kiwan Maeng and Brandon Lucia. *Carnegie Mellon University, USA*.
 + Compilers for Digital Signal Processors
+  + [GCD2: A Globally Optimizing Compiler for Mapping DNNs to Mobile DSPs](https://ieeexplore.ieee.org/document/9923837/) **MICRO 2022**. Wei Niu, Jiexiong Guan, Xipeng Shen, Yanzhi Wang, Gagan Agrawal, Bin Ren. *William & Mary, USA*.
   + [Vector instruction selection for digital signal processors using program synthesis](https://dl.acm.org/doi/abs/10.1145/3503222.3507714) **ASPLOS 2022**. Maaz Bin Safeer Ahmad, Alexander J. Root, Andrew Adams, Shoaib Kamil, and Alvin Cheung. *Adobe, USA*.
   + [Vectorization for digital signal processors via equality saturation](https://dl.acm.org/doi/abs/10.1145/3445814.3446707) **ASPLOS 2021**. Alexa VanHattum, Rachit Nigam, Vincent T. Lee, James Bornholt, and Adrian Sampson. *Cornell University, USA*.
 + Optimization for On-device Learning
