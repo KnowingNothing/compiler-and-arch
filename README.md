@@ -67,8 +67,8 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 ## Compilers for AI chips
 
 - Auto-tensorization and Auto-vectorization
+    - [TensorIR: An Abstraction for Automatic Tensorized Program Optimization](https://arxiv.org/abs/2207.04296). **ASPLOS 2023**. Siyuan Feng, Bohan Hou, Hongyi Jin, Wuwei Lin, Junru Shao, Ruihang Lai, Zihao Ye, Lianmin Zheng, Cody Hao Yu, Yong Yu, Tianqi Chen. _Shanghai Jiao Tong University_.
     - [Exocompilation for productive programming of hardware accelerators](https://dl.acm.org/doi/pdf/10.1145/3519939.3523446). **PLDI 2022**. [code](https://github.com/exo-lang/exo). Yuka Ikarashi, Gilbert Louis Bernstein, Alex Reinking, Hasan Genc, Jonathan Ragan-Kelley. _MIT_.
-    - [TensorIR: An Abstraction for Automatic Tensorized Program Optimization](https://arxiv.org/abs/2207.04296). **arXiv 2022**. Siyuan Feng, Bohan Hou, Hongyi Jin, Wuwei Lin, Junru Shao, Ruihang Lai, Zihao Ye, Lianmin Zheng, Cody Hao Yu, Yong Yu, Tianqi Chen. _Shanghai Jiao Tong University_.
     - [AMOS: enabling automatic mapping for tensor computations on spatial accelerators with hardware abstraction](https://dl.acm.org/doi/abs/10.1145/3470496.3527440) **ISCA 2022**. [code](https://github.com/KnowingNothing/AMOS). Size Zheng, Renze Chen, Anjiang Wei, Yicheng Jin, Qin Han, Liqiang Lu, Bingyang Wu, Xiuhong Li, Shengen Yan, Yun Liang. _Peking University_.
     - [UNIT: Unifying Tensorized Instruction Compilation](https://polyarch.cs.ucla.edu/papers/cgo2021-unit.pdf) **CGO 2021**. [code](https://github.com/were/UNIT). Jian Weng, Animesh Jain, Jie Wang, Leyuan Wang, Yida Wang, Tony Nowatzki. _University of California, Los Angeles_.
 
@@ -278,7 +278,8 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 
 ## Sparse Applications, Compilers, and Architectures
 - Compiler Design
-    - [SparseTIR: Composable Abstractions for Sparse Compilation in Deep Learning](https://arxiv.org/pdf/2207.04606.pdf) **arXiv 2022**. Zihao Ye, Ruihang Lai, Junru Shao, Tianqi Chen, Luis Ceze. _University of Washington_.
+    - [WACO: Learning Workload-Aware Co-optimization of the Format and Schedule of a Sparse Tensor Program](https://dl.acm.org/doi/10.1145/3575693.3575742) **ASPLOS 2023**. Jaeyeon Won, Charith Mendis, Joel S. Emer, Saman P. Amarasinghe. _MIT CSAIL_
+    - [SparseTIR: Composable Abstractions for Sparse Compilation in Deep Learning](https://arxiv.org/pdf/2207.04606.pdf) **ASPLOS 2023**. Zihao Ye, Ruihang Lai, Junru Shao, Tianqi Chen, Luis Ceze. _University of Washington_.
     - [Autoscheduling for Sparse Tensor Algebra with an Asymptotic Cost Model](http://tensor-compiler.org/files/ahrens-pldi22-taco-autoscheduling.pdf) **PLDI 2022**. Peter Ahrens, Fredrik Kjolstad, and Saman Amarasinghe. _MIT CSAIL_.
     - [Unified Compilation for Lossless Compression and Sparse Computing](https://groups.csail.mit.edu/commit/papers/2022/cgo22-TACO-lossless.pdf) **CGO 2022**. Daniel Donenfeld, Stephen Chou, and Saman Amarasinghe. _MIT CSAIL_.
     - [Dynamic Sparse Tensor Algebra Compilation](https://arxiv.org/abs/2112.01394) **arXiv 2021**. Stephen Chou and Saman Amarasinghe. _MIT CSAIL_.
