@@ -68,6 +68,7 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 
 - Auto-tensorization and Auto-vectorization
     - [TensorIR: An Abstraction for Automatic Tensorized Program Optimization](https://arxiv.org/abs/2207.04296). **ASPLOS 2023**. Siyuan Feng, Bohan Hou, Hongyi Jin, Wuwei Lin, Junru Shao, Ruihang Lai, Zihao Ye, Lianmin Zheng, Cody Hao Yu, Yong Yu, Tianqi Chen. _Shanghai Jiao Tong University_.
+    - [Heron: Automatically Constrained High-Performance Library Generation for Deep Learning Accelerators](https://dl.acm.org/doi/abs/10.1145/3582016.3582061). **ASPLOS 2023**. Jun Bi, Qi Guo, Xiaqing Li, Yongwei Zhao, Yuanbo Wen, Yuxuan Guo, Enshuai Zhou, Xing Hu, Zidong Du, Ling Li, Huaping Chen, Tianshi Chen. _University of Science and Technology of China_.
     - [Exocompilation for productive programming of hardware accelerators](https://dl.acm.org/doi/pdf/10.1145/3519939.3523446). **PLDI 2022**. [code](https://github.com/exo-lang/exo). Yuka Ikarashi, Gilbert Louis Bernstein, Alex Reinking, Hasan Genc, Jonathan Ragan-Kelley. _MIT_.
     - [AMOS: enabling automatic mapping for tensor computations on spatial accelerators with hardware abstraction](https://dl.acm.org/doi/abs/10.1145/3470496.3527440) **ISCA 2022**. [code](https://github.com/KnowingNothing/AMOS). Size Zheng, Renze Chen, Anjiang Wei, Yicheng Jin, Qin Han, Liqiang Lu, Bingyang Wu, Xiuhong Li, Shengen Yan, Yun Liang. _Peking University_.
     - [UNIT: Unifying Tensorized Instruction Compilation](https://polyarch.cs.ucla.edu/papers/cgo2021-unit.pdf) **CGO 2021**. [code](https://github.com/were/UNIT). Jian Weng, Animesh Jain, Jie Wang, Leyuan Wang, Yida Wang, Tony Nowatzki. _University of California, Los Angeles_.
@@ -78,7 +79,8 @@ A list of awesome compilers and optimization techniques (applicable to compilers
     - [Hardware Abstractions for targeting EDDO Architectures with the Polyhedral Model](http://poantsai.me/papers/2021.polyEDDO.impact.pdf) **PACT 2021**. Angshuman Parashar, Prasanth Chatarasi, Po-An Tsai. _NVIDIA_.
 
 ## Compilers for PIM
-
+- Code Generation
+    - [CHOPPER: A Compiler Infrastructure for Programmable Bit-serial SIMD Processing Using Memory in DRAM](https://ieeexplore.ieee.org/document/10071070) **HPCA 2023**. Xiangjun Peng, Yaohua Wang,Ming-Chang Yang. _The Chinese University of Hong Kong_.
 - Software & Hardware Co-Design
     - [Hardware-Software Co-Design for an Analog-Digital Accelerator for Machine Learning](http://sitaohuang.com/publications/2018_icrc_analog_ml.pdf) **ICRC 2018**. Ambrosi, Joao and Ankit, Aayush and Antunes, Rodrigo and Chalamalasetti, Sai Rahul and Chatterjee, Soumitra and El Hajj, Izzat and Fachini, Guilherme and Faraboschi, Paolo and Foltin, Martin and Huang, Sitao. _Hewlett Packard Enterprise_.
     - [SIAM: Chiplet-based Scalable In-Memory Acceleration with Mesh for Deep Neural Networks](https://arxiv.org/pdf/2108.08903.pdf) **TECS 2021**. [code](https://github.com/gkrish19/SIAM-Chiplet-based-Scalable-In-Memory-Acceleration-with-Mesh-for-Deep-Neural-Networks). Krishnan, Gokul and Mandal, Sumit K and Pannala, Manvitha and Chakrabarti, Chaitali and Seo, Jae-Sun and Ogras, Umit Y and Cao, Yu. _Arizona State University_.
@@ -234,6 +236,7 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 ## Design Space Construction and Exploration
 
 - Graph Optimizations
+    - [DeFiNES: Enabling Fast Exploration of the Depth-first Scheduling Space for DNN Accelerators through Analytical Modeling](https://arxiv.org/abs/2212.05344). **HPCA 2023**. Linyan Mei, Koen Goetschalckx, Arne Symons, Marian Verhelst. _KU Leuven_.
     - [APOLLO: AUTOMATIC PARTITION-BASED OPERATOR FUSION THROUGH LAYER BY LAYER OPTIMIZATION](https://proceedings.mlsys.org/paper/2022/hash/069059b7ef840f0c74a814ec9237b6ec-Abstract.html) **MLSys 2022**. Jie Zhao, Xiong Gao, Ruijie Xia, Zhaochuang Zhang, Deshi Chen, Lei Chen, Renwei Zhang, Zhen Geng, Bin Cheng, Xuefeng Jin. _State Key Laboratory of Mathematical Engineering and Advanced Computing_.
     - [NeoFlow: A Flexible Framework for Enabling Efficient Compilation for High Performance DNN Training](https://www.computer.org/csdl/journal/td/2022/11/09664259/1zHDLHIxWPC) **TPDS 2022**. Size Zheng, Renze Chen, Yicheng Jin, Anjiang Wei, Bingyang Wu, Xiuhong Li, Shengen Yan, Yun Liang. _Peking University_.
     - [DNNFusion: Accelerating Deep Neural Networks Execution with Advanced Operator Fusion](https://dl.acm.org/doi/10.1145/3453483.3454083) **PLDI 2021**. Wei Niu, Jiexiong Guan, Yanzhi Wang, Gagan Agrawal, Bin Ren. _College of William & Mary_.
@@ -255,6 +258,7 @@ A list of awesome compilers and optimization techniques (applicable to compilers
     - [Automatically Scheduling Halide Image Processing Pipelines](https://dl.acm.org/doi/pdf/10.1145/2897824.2925952) **SIGGRAPH 2016**. Ravi Teja Mullapudi, Andrew Adams, Dillon Sharlet, Jonathan Ragan-Kelley, Kayvon Fatahalian. _Carnegie Mellon University_.
 
 - Analytical Approaches
+    - [Chimera: An Analytical Optimizing Framework for Effective Compute-intensive Operators Fusion](https://ieeexplore.ieee.org/document/10071018). **HPCA 2023**. Size Zheng, Siyuan Chen, Peidi Song, Renze Chen, Xiuhong Li, Shengen Yan, Dahua Lin, Jingwen Leng, Yun Liang. _Peking University_.
     - [Analytical characterization and design space exploration for optimization of CNNs](https://dl.acm.org/doi/10.1145/3445814.3446759) **ASPLOS 2021**. Rui Li, Yufan Xu, Aravind Sukumaran-Rajam, Atanas Rountev, P. Sadayappan. _University of Utah_.
     - [Tuna: A Static Analysis Approach to Optimizing Deep Neural Networks](https://arxiv.org/abs/2104.14641#:~:text=Tuna%3A%20A%20Static%20Analysis%20Approach%20to%20Optimizing%20Deep%20Neural%20Networks,-Yao%20Wang%2C%20Xingyu&text=We%20introduce%20Tuna%2C%20a%20static,performance%20of%20deep%20neural%20networks.) **arXiv 2021**. Yao Wang, Xingyu Zhou, Yanming Wang, Rui Li, Yong Wu, Vin Sharma. _Amazon Web Services_.
     - [Analytical cache modeling and tilesize optimization for tensor contractions](https://hal.inria.fr/hal-02418875/document) **SC 2019**. 	Rui Li, Aravind Sukumaran-Rajam, Richard Veras, Tze Meng Low, Fabrice Rastello, Atanas Rountev, P. Sadayappan. _University of Utah_.
@@ -315,6 +319,7 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 
 ## Cost Model
 - Model Design
+    - [TLP: A Deep Learning-Based Cost Model for Tensor Program Tuning](https://dl.acm.org/doi/10.1145/3575693.3575737). **ASPLOS 2023**. Yi Zhai, Yu Zhang, Shou Liu, Xiaomeng Chu, Jie Peng, Jianmin Ji, Yayong Zhang. _University of Science and Technology of China_.
     - [A LEARNED PERFORMANCE MODEL FOR TENSOR PROCESSING UNITS](https://arxiv.org/abs/2008.01040) **MLSys 2021**. Samuel J. Kaufman, Phitchaya Mangpo Phothilimthana, Yanqi Zhou, Charith Mendis, Sudip Roy, Amit Sabne, Mike Burrows. _Google_.
 
 - Dataset
