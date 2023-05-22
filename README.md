@@ -67,6 +67,7 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 ## Compilers for AI chips
 
 - Auto-tensorization and Auto-vectorization
+    - [Graphene: An IR for Optimized Tensor Computations on GPUs](https://dl.acm.org/doi/abs/10.1145/3582016.3582018) **ASPLOS 2023**. Bastian Hagedorn, Bin Fan, Hanfeng Chen, Cris Cecka, Michael Garland, Vinod Grover. _NVIDIA_.
     - [TensorIR: An Abstraction for Automatic Tensorized Program Optimization](https://arxiv.org/abs/2207.04296). **ASPLOS 2023**. Siyuan Feng, Bohan Hou, Hongyi Jin, Wuwei Lin, Junru Shao, Ruihang Lai, Zihao Ye, Lianmin Zheng, Cody Hao Yu, Yong Yu, Tianqi Chen. _Shanghai Jiao Tong University_.
     - [Heron: Automatically Constrained High-Performance Library Generation for Deep Learning Accelerators](https://dl.acm.org/doi/abs/10.1145/3582016.3582061). **ASPLOS 2023**. Jun Bi, Qi Guo, Xiaqing Li, Yongwei Zhao, Yuanbo Wen, Yuxuan Guo, Enshuai Zhou, Xing Hu, Zidong Du, Ling Li, Huaping Chen, Tianshi Chen. _University of Science and Technology of China_.
     - [Exocompilation for productive programming of hardware accelerators](https://dl.acm.org/doi/pdf/10.1145/3519939.3523446). **PLDI 2022**. [code](https://github.com/exo-lang/exo). Yuka Ikarashi, Gilbert Louis Bernstein, Alex Reinking, Hasan Genc, Jonathan Ragan-Kelley. _MIT_.
