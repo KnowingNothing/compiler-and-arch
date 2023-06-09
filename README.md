@@ -9,6 +9,8 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 ## Contents
 
 
+- [Compilers and Architectures](#compilers-and-architectures)
+- [Contents](#contents)
 - [List of Conferences and Journals Considered](#list-of-conferences-and-journals-considered)
 - [Compiler Toolchain](#compiler-toolchain)
 - [Compilers for AI chips](#compilers-for-ai-chips)
@@ -26,6 +28,7 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 - [NAS Compilers and Architectures](#nas-compilers-and-architectures)
 - [Security and Privacy](#security-and-privacy)
 - [Cost Model](#cost-model)
+- [Hardware Design and Validation](#hardware-design-and-validation)
 - [Survey and Books](#survey-and-books)
 - [Talks, Tutorials, and Videos](#talks-tutorials-and-videos)
 
@@ -49,6 +52,7 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 ## Compiler Toolchain
 
 - Open-source
+    - []
     - [A Data-Centric Optimization Framework for Machine Learning](https://arxiv.org/pdf/2110.10802.pdf#:~:text=The%20Data%2DCentric%20Machine%20Learning,art%20performance%20for%20multiple%20platforms.) **ICS 2022**. [Github Page](https://github.com/spcl/daceml). [Document Page](https://daceml.readthedocs.io/en/latest/?badge=latest). Oliver Rausch, Tal Ben-Nun, Nikoli Dryden, Andrei Ivanov, Shigang Li, Torsten Hoefler. _ETH Zurich_.
     - [MLIR: A Compiler Infrastructure for the End of Moore's Law](https://arxiv.org/abs/2002.11054) **arXiv 2020**, [Github Page](https://github.com/llvm/llvm-project.git). [Document Page](https://mlir.llvm.org/). Chris Lattner, Jacques A. Pienaar, Mehdi Amini, Uday Bondhugula, River Riddle, Albert Cohen, Tatiana Shpeisman, Andy Davis, Nicolas Vasilache, Oleksandr Zinenko. _Google_.
     - [JAX: Compiling machine learning programs via high-level tracing](https://cs.stanford.edu/~rfrostig/pubs/jax-mlsys2018.pdf) **MLSys 2018**. [Github Page](https://github.com/google/jax). [Document Page](https://jax.readthedocs.io/en/latest/). Roy Frostig, Matthew James Johnson, and Chris Leary. _Google_.
@@ -327,6 +331,19 @@ A list of awesome compilers and optimization techniques (applicable to compilers
     - [TenSet: A Large-scale Program Performance Dataset for Learned Tensor Compilers](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/file/a684eceee76fc522773286a895bc8436-Paper-round1.pdf) **NeurIPS Datasets and Benchmarks 2021**. [code](https://github.com/tlc-pack/tenset). Lianmin Zheng, Ruochen Liu, Junru Shao, Tianqi Chen, Joseph Gonzalez, Ion Stoica, Ameer Haj-Ali. _UC Berkeley_.
 
 
+## Hardware Design and Validation
+- Synthesis
+    - [PDL: a high-level hardware design language for pipelined processors](https://dl.acm.org/doi/abs/10.1145/3519939.3523455). **PLDI 2022**. Drew Zagieboylo, Charles Sherk, Gookwon Edward Suh, and Andrew C. Myers. _Cornell University_
+    - [HECTOR: A Multi-level Intermediate Representation for Hardware Synthesis Methodologies](https://ieeexplore.ieee.org/document/10068908). **ICCAD 2022**. [code](https://github.com/pku-liang/Hector). Ruifan Xu, Youwei Xiao, and Yun Liang. _Peking University_
+    - [A compiler infrastructure for accelerator generators](https://dl.acm.org/doi/abs/10.1145/3445814.3446712). **ASPLOS 2021**. [code](https://github.com/cucapra/calyx/). Rachit Nigam, Samuel Thomas, Zhijing Li, and Adrian Sampson. _Cornell University_
+    - [LLHD: a multi-level intermediate representation for hardware description languages](https://dl.acm.org/doi/abs/10.1145/3385412.3386024). **PLDI 2020**. Fabian Schuiki, Andreas Kurth, Tobias Grosser, and Luca Benini. _ETH Zurich_
+    - [Reusability is FIRRTL ground: hardware construction languages, compiler frameworks, and transformations](https://dl.acm.org/doi/10.5555/3199700.3199728). **ICCAD 2017**. Adam Izraelevitz, Jack Koenig, Patrick Li, Richard Lin, Angie Wang, Albert Magyar, Donggyu Kim, Colin Schmidt, Chick Markley, Jim Lawson, and Jonathan Bachrach. _UC Berkeley_
+- Debugging
+    - [Stepwise Debugging for Hardware Accelerators](https://dl.acm.org/doi/10.1145/3575693.3575717). **ASPLOS 2023**. Griffin Berlstein, Rachit Nigam, Christophe Gyurgyik, and Adrian Sampson. _Cornell University_
+    - [Debugging in the brave new world of reconfigurable hardware](https://dl.acm.org/doi/10.1145/3503222.3507701). **ASPLOS 2022**. Jiacheng Ma, Gefei Zuo, Kevin Loughlin, Haoyang Zhang, Andrew Quinn, and Baris Kasikci. _University of Michigan_
+    - [CirFix: Automatically Repairing Defects in Hardware Design Code](https://dl.acm.org/doi/10.1145/3503222.3507763). **ASPLOS 2022**. Hammad Ahmad, Yu Huang, and Westley Weimer. _University of Michigan_
+- Simulation
+    - [RepCut: Superlinear Parallel RTL Simulation with Replication-Aided Partitioning](https://dl.acm.org/doi/10.1145/3582016.3582034). **ASPLOS 2023**. Haoyuan Wang and Scott Beamer. _University of California at Santa Cruz_
 ## Survey and Books
 
 ## Talks, Tutorials, and Videos
