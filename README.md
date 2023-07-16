@@ -241,6 +241,7 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 ## Design Space Construction and Exploration
 
 - Graph Optimizations
+    - [MapZero: Mapping for Coarse-grained Reconfigurable Architectures with Reinforcement Learning and Monte-Carlo Tree Search](https://dl.acm.org/doi/abs/10.1145/3579371.3589081) **ISCA 2023**. Xiangyu Kong, Yi Huang, Jianfeng Zhu, Xingchen Man, Yang Liu, Chunyang Feng, Pengfei Gou, Minggui Tang, Shaojun Wei, Leibo Liu. _Tsinghua_ 
     - [DeFiNES: Enabling Fast Exploration of the Depth-first Scheduling Space for DNN Accelerators through Analytical Modeling](https://arxiv.org/abs/2212.05344). **HPCA 2023**. Linyan Mei, Koen Goetschalckx, Arne Symons, Marian Verhelst. _KU Leuven_.
     - [APOLLO: AUTOMATIC PARTITION-BASED OPERATOR FUSION THROUGH LAYER BY LAYER OPTIMIZATION](https://proceedings.mlsys.org/paper/2022/hash/069059b7ef840f0c74a814ec9237b6ec-Abstract.html) **MLSys 2022**. Jie Zhao, Xiong Gao, Ruijie Xia, Zhaochuang Zhang, Deshi Chen, Lei Chen, Renwei Zhang, Zhen Geng, Bin Cheng, Xuefeng Jin. _State Key Laboratory of Mathematical Engineering and Advanced Computing_.
     - [NeoFlow: A Flexible Framework for Enabling Efficient Compilation for High Performance DNN Training](https://www.computer.org/csdl/journal/td/2022/11/09664259/1zHDLHIxWPC) **TPDS 2022**. Size Zheng, Renze Chen, Yicheng Jin, Anjiang Wei, Bingyang Wu, Xiuhong Li, Shengen Yan, Yun Liang. _Peking University_.
@@ -252,6 +253,7 @@ A list of awesome compilers and optimization techniques (applicable to compilers
     - [Relay: a new IR for machine learning frameworks](https://dl.acm.org/doi/10.1145/3211346.3211348) **MAPL 2018**. [code](https://github.com/apache/tvm/tree/main/python/tvm/relay). Jared Roesch, Steven Lyubomirsky, Logan Weber, Josh Pollock, Marisa Kirisame, Tianqi Chen, Zachary Tatlock. _University of Washington_.
 
 - Auto-tuning and Auto-scheduling
+    - [BaCO: A Fast and Portable Bayesian Compiler Optimization Framework](https://arxiv.org/pdf/2212.11142.pdf) **ASPLOS 2024**. Erik Hellsten, Artur Souza, Johannes Lenfers, Rubens Lacouture, Olivia Hsu, Adel Ejjeh, Fredrik Kjolstad, Michel Steuwer, Kunle Olukotun, and Luigi Nardi. _Stanford_
     - [Glimpse: mathematical embedding of hardware specification for neural compilation](https://cseweb.ucsd.edu/~bhahn221/doc/paper/dac22-glimpse.pdf) **DAC 2022**. Byung Hoon Ahn, Sean Kinzer, Hadi Esmaeilzadeh. _University of California_.
     - [Efficient Automatic Scheduling of Imaging and Vision Pipelines for the GPU](https://cseweb.ucsd.edu/~tzli/gpu_autoscheduler.pdf) **OOPSLA 2021**. Luke Anderson, Andrew Adams, Karima Ma, Tzu-Mao Li, Tian Jin, Jonathan Ragan-Kelley. _Massachusetts Institute of Technology_.
     - [Ansor: Generating High-Performance Tensor Programs for Deep Learning](https://www.usenix.org/system/files/osdi20-zheng.pdf) **OSDI 2020**. [code](https://github.com/apache/tvm/tree/main/python/tvm/auto_scheduler). Lianmin Zheng, Chengfan Jia, Minmin Sun, Zhao Wu, Cody Hao Yu, Ameer Haj-Ali, Yida Wang, Jun Yang, Danyang Zhuo, Koushik Sen, Joseph E. Gonzalez, Ion Stoica. _UC Berkeley_.
@@ -287,8 +289,11 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 
 ## Sparse Applications, Compilers, and Architectures
 - Compiler Design
+    - [Mosaic: An Interoperable Compiler for Tensor Algebra](https://dl.acm.org/doi/10.1145/3591236) **PLDI 2023**. Manya Bansal, Olivia Hsu, Kunle Olukotun, Fredrik Kjolstad. _Stanford_.
+    - [The Sparse Abstract Machine](https://dl.acm.org/doi/10.1145/3582016.3582051) **ASPLOS 2023**. Olivia Hsu, Maxwell Strange, Ritvik Sharma, Jaeyeon Won, Kunle Olukotun, Joel S. Emer, Mark A. Horowitz, Fredrik Kjolstad. _Stanford_.
     - [WACO: Learning Workload-Aware Co-optimization of the Format and Schedule of a Sparse Tensor Program](https://dl.acm.org/doi/10.1145/3575693.3575742) **ASPLOS 2023**. Jaeyeon Won, Charith Mendis, Joel S. Emer, Saman P. Amarasinghe. _MIT CSAIL_
     - [SparseTIR: Composable Abstractions for Sparse Compilation in Deep Learning](https://arxiv.org/pdf/2207.04606.pdf) **ASPLOS 2023**. Zihao Ye, Ruihang Lai, Junru Shao, Tianqi Chen, Luis Ceze. _University of Washington_.
+    - [Looplets: A Language for Structured Coiteration](https://dl.acm.org/doi/10.1145/3579990.3580020) **CGO 2023** Willow Ahrens, Daniel Donenfeld, Fredrik Kjolstad, Samam P. Amarasinghe. _MIT CSAIL_
     - [Autoscheduling for Sparse Tensor Algebra with an Asymptotic Cost Model](http://tensor-compiler.org/files/ahrens-pldi22-taco-autoscheduling.pdf) **PLDI 2022**. Peter Ahrens, Fredrik Kjolstad, and Saman Amarasinghe. _MIT CSAIL_.
     - [Unified Compilation for Lossless Compression and Sparse Computing](https://groups.csail.mit.edu/commit/papers/2022/cgo22-TACO-lossless.pdf) **CGO 2022**. Daniel Donenfeld, Stephen Chou, and Saman Amarasinghe. _MIT CSAIL_.
     - [Dynamic Sparse Tensor Algebra Compilation](https://arxiv.org/abs/2112.01394) **arXiv 2021**. Stephen Chou and Saman Amarasinghe. _MIT CSAIL_.
