@@ -209,6 +209,7 @@ A list of awesome compilers and optimization techniques (applicable to compilers
   + [Compiling KB-sized machine learning models to tiny IoT devices](https://dl.acm.org/doi/abs/10.1145/3314221.3314597) **PLDI 2019**. Sridhar Gopinath, Nikhil Ghanathe, Vivek Seshadri, and Rahul Sharma. *Microsoft Research, India*.
   + [Energy-Constrained Compression for Deep Neural Networks via Weighted Sparse Projection and Layer Input Masking](https://openreview.net/forum?id=BylBr3C9K7) **ICLR 2019**. Haichuan Yang, Yuhao Zhu, Ji Liu. *Department of Computer Science, University of Rochester, Rochester, USA*.
 + Optimization for Mobile Device Inference
+  + [SoD2: Statically Optimizing Dynamic Deep Neural Network Execution](https://dl.acm.org/doi/abs/10.1145/3617232.3624869) **ASPLOS 2024**. Wei Niu, Gagan Agrawal, Bin Ren. *University of Georgia, USA*.
   + [Towards a Domain-Extensible Compiler: Optimizing an Image Processing Pipeline on Mobile CPUs](https://ieeexplore.ieee.org/abstract/document/9370337/) **CGO 2021**. Koehler, Thomas and Steuwer, Michel. *Philips Research, Hamburg, Germany*.
   + [AutoScale: Energy Efficiency Optimization for Stochastic Edge Inference Using Reinforcement Learning](https://ieeexplore.ieee.org/abstract/document/9251950/) **MICRO 2020**. Kim, Young Geun and Wu, Carole-Jean. *Korea University, Seoul, South Korea*.
 + Neural Architecture Search for Mobile Devices
@@ -242,6 +243,7 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 ## Design Space Construction and Exploration
 
 - Graph Optimizations
+    - [Optimizing Deep Learning Inference via Global Analysis and Tensor Expressions](https://dl.acm.org/doi/10.1145/3617232.3624858) **ASPLOS 2024**. Chunwei Xia, Jiacheng Zhao, Qianqi Sun, Zheng Wang, Yuan Wen, Teng Yu, Xiaobing Feng, Huimin Cui. _SKLP, ICT, CAS UCAS, China and University of Leed, U.K._
     - [MAGIS: Memory Optimization via Coordinated Graph Transformation and Scheduling for DNN](https://dl.acm.org/doi/10.1145/3620666.3651330) **ASPLOS 2024**. Renze Chen, Zijian Ding, Size Zheng*, Chengrui Zhang, Jingwen Leng, Xuanzhe Liu, Yun Liang. _Peking University_
     - [MapZero: Mapping for Coarse-grained Reconfigurable Architectures with Reinforcement Learning and Monte-Carlo Tree Search](https://dl.acm.org/doi/abs/10.1145/3579371.3589081) **ISCA 2023**. Xiangyu Kong, Yi Huang, Jianfeng Zhu, Xingchen Man, Yang Liu, Chunyang Feng, Pengfei Gou, Minggui Tang, Shaojun Wei, Leibo Liu. _Tsinghua University_ 
     - [DeFiNES: Enabling Fast Exploration of the Depth-first Scheduling Space for DNN Accelerators through Analytical Modeling](https://arxiv.org/abs/2212.05344). **HPCA 2023**. Linyan Mei, Koen Goetschalckx, Arne Symons, Marian Verhelst. _KU Leuven_.
