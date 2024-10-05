@@ -237,6 +237,7 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 
 ## Compilers for Configurable Hardware
   - Domain specific langage
+    - [Predictable Accelerator Design with Time-Sensitive Affine Types](https://dl.acm.org/doi/abs/10.1145/3385412.3385974). **PLDI 2020**. [code](https://github.com/cucapra/dahlia). Rachit Nigam, Sachille Atapattu, Samuel Thomas, Zhijing Li, Ted Bauer, Yuwei Ye, Apurva Koti, Adrian Sampson, Zhiru Zhang
     - [HeteroFlow: An Accelerator Programming Model with Decoupled Data Placement for Software-Defined FPGAs](https://dl.acm.org/doi/10.1145/3490422.3502369) **FPGA 2022**. Shaojie Xiang, Yihsiang Lai, Yuan Zhou, Hongzheng Chen, Niansong Zhang, Debjit Pal, and Zhiru Zhang
     - [HeteroCL: A Multi-Paradigm Programming Infrastructure for Software-Defined Reconfigurable Computing](https://dl.acm.org/doi/10.1145/3289602.3293910) **FPGA 2019**. Yihsiang Lai, Yuze Chi, Yuwei Hu, Jie Wang, Cody Hao Yu, Yuan Zhou, Jason Cong, and Zhiru Zhang
     - [T2S-Tensor: Productively Generating High-Performance Spatial Hardware for Dense Tensor Computations](https://ieeexplore.ieee.org/document/8735529) **FCCM 2019**. Nitish Kumar Srivastava, Hongbo Rong, Prithayan Barua, Guanyu Feng, Huanqi Cao, Zhiru Zhang, David H. Albonesi, Vivek Sarkar, Wenguang Chen, Paul Petersen, Geoff Lowney, Adam Herr, Christopher J. Hughes, Timothy G. Mattson and Pradeep Dubey
@@ -347,6 +348,7 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 
 ## Hardware Design and Validation
 - Synthesis
+    - [Modular Hardware Design with Timeline Types](https://dl.acm.org/doi/abs/10.1145/3591234). **PLDI 2023**. [code](https://filamentHDL.com) Rachit Nigam, Pedro Amorim, Adrian Sampson. _Cornell University_ 
     - [PDL: a high-level hardware design language for pipelined processors](https://dl.acm.org/doi/abs/10.1145/3519939.3523455). **PLDI 2022**. Drew Zagieboylo, Charles Sherk, Gookwon Edward Suh, and Andrew C. Myers. _Cornell University_
     - [HECTOR: A Multi-level Intermediate Representation for Hardware Synthesis Methodologies](https://ieeexplore.ieee.org/document/10068908). **ICCAD 2022**. [code](https://github.com/pku-liang/Hector). Ruifan Xu, Youwei Xiao, and Yun Liang. _Peking University_
     - [A compiler infrastructure for accelerator generators](https://dl.acm.org/doi/abs/10.1145/3445814.3446712). **ASPLOS 2021**. [code](https://github.com/cucapra/calyx/). Rachit Nigam, Samuel Thomas, Zhijing Li, and Adrian Sampson. _Cornell University_
