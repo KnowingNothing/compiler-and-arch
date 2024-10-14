@@ -52,6 +52,7 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 ## Compiler Toolchain
 
 - Open-source
+    - [Triton](https://dl.acm.org/doi/10.1145/3315508.3329973) **MAPL 2019**. [Github Page](https://github.com/triton-lang/triton). [Document Page](https://triton-lang.org/main/python-api/triton.language.html). Philippe Tillet, H. T. Kung, David CoxAuthors Info & Claims. _OpenAI_
     - [A Data-Centric Optimization Framework for Machine Learning](https://arxiv.org/pdf/2110.10802.pdf#:~:text=The%20Data%2DCentric%20Machine%20Learning,art%20performance%20for%20multiple%20platforms.) **ICS 2022**. [Github Page](https://github.com/spcl/daceml). [Document Page](https://daceml.readthedocs.io/en/latest/?badge=latest). Oliver Rausch, Tal Ben-Nun, Nikoli Dryden, Andrei Ivanov, Shigang Li, Torsten Hoefler. _ETH Zurich_.
     - [MLIR: A Compiler Infrastructure for the End of Moore's Law](https://arxiv.org/abs/2002.11054) **arXiv 2020**, [Github Page](https://github.com/llvm/llvm-project.git). [Document Page](https://mlir.llvm.org/). Chris Lattner, Jacques A. Pienaar, Mehdi Amini, Uday Bondhugula, River Riddle, Albert Cohen, Tatiana Shpeisman, Andy Davis, Nicolas Vasilache, Oleksandr Zinenko. _Google_.
     - [JAX: Compiling machine learning programs via high-level tracing](https://cs.stanford.edu/~rfrostig/pubs/jax-mlsys2018.pdf) **MLSys 2018**. [Github Page](https://github.com/google/jax). [Document Page](https://jax.readthedocs.io/en/latest/). Roy Frostig, Matthew James Johnson, and Chris Leary. _Google_.
