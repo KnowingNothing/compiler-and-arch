@@ -283,6 +283,7 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 
 ## Dynamic Shape and Control Flow
 - Dynamic Shape Operator
+    - [Optimizing Dynamic-Shape Neural Networks on Accelerators via On-the-Fly Micro-Kernel Polymerization](https://dl.acm.org/doi/10.1145/3620665.3640390) **ASPLOS 2024** Feng Yu, Guangli Li, Jiacheng Zhao, Huimin Cui, Xiaobing Feng, Jingling Xue. *SKLP, ICT, CAS UCAS*.
     - [DietCode: Automatic Optimization for Dynamic Tensor Programs]() **MLSys 2022** [code](https://github.com/UofT-EcoSystem/DietCode) Bojian Zheng, Ziheng Jiang, Cody Hao Yu, Haichen Shen, Joshua Fromm, Yizhi Liu, Yida Wang, Luis Ceze, Tianqi Chen, Gennady Pekhimenko. *AWS*.
     - [The CoRa Tensor Compiler: Compilation for Ragged Tensors with Minimal Padding](https://proceedings.mlsys.org/paper/2022/file/d3d9446802a44259755d38e6d163e820-Paper.pdf) **MLSys 2022** Pratik Fegade, Tianqi Chen, Phillip Gibbons, Todd Mowry. _CMU_.
     - [Nimble: Efficiently Compiling Dynamic Neural Networks for Model Inference](https://proceedings.mlsys.org/paper/2021/hash/4e732ced3463d06de0ca9a15b6153677-Abstract.html) **MLSys 2021** Haichen Shen, Jared Roesch, Zhi Chen, Wei Chen, Yong Wu, Mu Li, Vin Sharma, Zachary Tatlock, Yida Wang. *AWS*.
