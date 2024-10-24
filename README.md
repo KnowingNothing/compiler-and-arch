@@ -250,7 +250,7 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 
 ## Compilers for Hyperdimensional Computing
 - Domain specific langage and compiler
-    - [HPVM-HDC: A Heterogeneous Programming System for Hyperdimensional Computing](https://arxiv.org/pdf/2410.15179) **ArXiv 2024**. Russel Arbore, Xavier Routh, Abdul Rafae Noor, Akash Kothari, Haichao Yang, Weihong Xu, Sumukh Pinge, Minxuan Zhou, Vikram Adve, and Tajana Rosing. _University of Illinois Urbana-Champaign_ and _University of California San Diego_.
+    - [HPVM-HDC: A Heterogeneous Programming System for Hyperdimensional Computing](https://arxiv.org/pdf/2410.15179) **arXiv 2024**. Russel Arbore, Xavier Routh, Abdul Rafae Noor, Akash Kothari, Haichao Yang, Weihong Xu, Sumukh Pinge, Minxuan Zhou, Vikram Adve, and Tajana Rosing. _University of Illinois Urbana-Champaign_ and _University of California San Diego_.
 
 ## Design Space Construction and Exploration
 
