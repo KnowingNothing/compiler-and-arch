@@ -21,6 +21,7 @@ A list of awesome compilers and optimization techniques (applicable to compilers
 - [Compilers for Mobile and Edge](#compilers-for-mobile-and-edge)
 - [Compilers for RISC-V](#compilers-for-risc-v)
 - [Compilers for Configurable Hardware](#compilers-for-configurable-hardware)
+- [Compilers for Hyperdimensional Computing](#compilers-for-hyperdimensional-computing)
 - [Design Space Construction and Exploration](#design-space-construction-and-exploration)
 - [Dynamic Shape and Control Flow](#dynamic-shape-and-control-flow)
 - [Sparse Applications, Compilers, and Architectures](#sparse-applications-compilers-and-architectures)
@@ -246,6 +247,10 @@ A list of awesome compilers and optimization techniques (applicable to compilers
     - [Darkroom: compiling high-level image processing code into hardware pipelines](https://dl.acm.org/doi/10.1145/2601097.2601174) **TOG 2014**. James Hegarty, John Brunhaver, Zachary DeVito, Jonathan Ragan Kelley, Noy Cohen, Steven Bell, Artem Vasilyev, Mark Horowitz and Pat Hanrahan
     - [Spatial: a language and compiler for application accelerators](https://dl.acm.org/doi/10.1145/3192366.3192379) **PLDI 2018**. David Koeplinger, Matthew Feldman, Raghu Prabhakar, Yaqi Zhang, Stefan Hadjis, Ruben Fiszel, Tian Zhao, Luigi Nardi, Ardavan Pedram, Christos Kozyrakis and Kunle Olukotun
     - [A Unified Backend for Targeting FPGAs from DSLs](https://ieeexplore.ieee.org/document/8445108) **ASAP 2018**. Emanuele Del Sozzo, Riyadh Baghdadi, Saman Amarasinghe, and Marco D. Santambrogio
+
+## Compilers for Hyperdimensional Computing
+- Domain specific langage and compiler
+    - [HPVM-HDC: A Heterogeneous Programming System for Hyperdimensional Computing](https://arxiv.org/pdf/2410.15179) **ArXiv 2024**. Russel Arbore, Xavier Routh, Abdul Rafae Noor, Akash Kothari, Haichao Yang, Weihong Xu, Sumukh Pinge, Minxuan Zhou, Vikram Adve, and Tajana Rosing. _University of Illinois Urbana-Champaign_ and _University of California San Diego_.
 
 ## Design Space Construction and Exploration
 
